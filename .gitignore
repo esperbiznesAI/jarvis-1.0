@@ -1,0 +1,44 @@
+# Sekrety i konfiguracja prywatna
+.env
+.env.*
+!.env.example
+!.env.sample
+!.env.template
+*.pem
+*.key
+*.p12
+*.pfx
+credentials.json
+secrets.json
+auth.json
+.secrets/
+.codex/
+
+# Zależności i środowiska lokalne
+node_modules/
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+
+# Pliki tymczasowe i pamięć podręczna
+.cache/
+.tmp/
+tmp/
+temp/
+*.tmp
+*.temp
+*.log
+*.swp
+*.swo
+*~
+
+# Pliki systemowe i ustawienia edytorów
+.DS_Store
+Thumbs.db
+Desktop.ini
+.idea/
+.vscode/

@@ -1,0 +1,34 @@
+KLOCKOWA DOLINA
+
+Uruchom plik URUCHOM.cmd albo otwórz index.html w Edge lub Chrome.
+Gra działa lokalnie i nie potrzebuje internetu ani instalowania dodatków.
+
+Kliknij „Wejdź do świata”.
+WASD — chodzenie
+Mysz — rozglądanie
+Spacja — skok; w wodzie spokojne wypływanie, w locie w górę
+F — włącz / wyłącz latanie
+C — w dół podczas lotu
+Shift — bieg
+Lewy przycisk myszy — rozbij blok
+Prawy przycisk myszy — postaw blok
+1–9 lub rolka — wybierz materiał (8: deski, 9: jasny kamień)
+Escape — menu i zwolnienie kursora
+
+Jeżeli przeglądarka nie przechwyci myszy, działają strzałki
+do rozglądania oraz Q do rozbijania i E do stawiania bloków.
+
+Świat ma 80 × 80 pól. Możesz budować z dziewięciu rodzajów bloków
+bez limitu materiałów. Nie ma potworów ani obrażeń.
+Zmiany świata trwają do odświeżenia lub zamknięcia karty.
+W menu możesz wrócić na polanę startową.
+Żeby wyjść z wody, trzymaj Spację i idź w stronę brzegu.
+Postać pozostaje zanurzona podczas pływania. Niewielkie wybicie
+pomaga wejść na niski brzeg, bez podskakiwania po tafli wody.
+Woda występuje tylko w zbiorniku. Kopanie suchej ziemi jej nie tworzy.
+Przy wysokim brzegu użyj F, a następnie Spacji, żeby wzlecieć.
+W lewym górnym rogu widać współrzędne X, Y i Z. Y oznacza
+wysokość stóp postaci. Chmury przesuwają się powoli nad doliną.
+
+Gra wykorzystuje Three.js na licencji MIT. Licencja znajduje się
+w vendor/THREE-LICENSE.txt. Grafiki bloków powstają lokalnie w grze.

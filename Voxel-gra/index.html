@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#243a30">
+  <title>Klockowa Dolina — mały świat do zbudowania</title>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cpath fill='%238dc759' d='M2 8 16 1 30 8 16 15Z'/%3E%3Cpath fill='%2399754c' d='M2 8 16 15 16 31 2 24Z'/%3E%3Cpath fill='%23604e38' d='M16 15 30 8 30 24 16 31Z'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="style.css">
+  <script defer src="vendor/three.min.js"></script>
+  <script defer src="world.js"></script>
+  <script defer src="movement.js"></script>
+  <script defer src="clouds.js"></script>
+  <script defer src="water.js"></script>
+  <script defer src="game.js"></script>
+</head>
+<body>
+  <main id="game" aria-label="Klockowa Dolina, gra trójwymiarowa">
+    <div id="viewport"></div>
+    <header class="topbar">
+      <div class="brand"><svg viewBox="0 0 32 32" aria-hidden="true"><path fill="#aedb72" d="M2 8 16 1 30 8 16 15Z"/><path fill="#aa8354" d="M2 8 16 15 16 31 2 24Z"/><path fill="#725d3c" d="M16 15 30 8 30 24 16 31Z"/></svg><div>KLOCKOWA DOLINA<span>TWÓJ MAŁY ŚWIAT</span></div></div>
+      <div class="top-actions"><span class="world-tag" id="movement-mode">Tryb swobodny · F: lot</span><button id="help" aria-label="Pokaż menu i sterowanie">Sterowanie <kbd>Esc</kbd></button></div>
+    </header>
+    <aside id="coordinates" aria-label="Współrzędne gracza"><span>POZYCJA</span><output id="position-value">X: 34.5 / Y: 9.0 / Z: 42.5</output></aside>
+    <div id="crosshair" aria-hidden="true"><i></i><b></b></div>
+    <div id="target-label"></div>
+    <div id="toast" role="status" aria-live="polite"></div>
+    <aside class="bottom-hud">
+      <div id="selected-name">Trawa</div>
+      <div id="hotbar" role="toolbar" aria-label="Wybierz blok"></div>
+      <p class="quick-help"><span><b>LPM</b> rozbij</span><span><b>PPM</b> postaw</span><span><b>1–9 / rolka</b> wybierz blok</span><span id="flight-help"><b>F</b> latanie</span></p>
+    </aside>
+    <div id="menu" class="overlay">
+      <section class="menu-card" aria-labelledby="menu-title">
+        <div class="eyebrow"><span></span> MAŁA GRA · WIELKIE MOŻLIWOŚCI</div>
+        <h1 id="menu-title">Klockowa<br><em>Dolina.</em></h1>
+        <p id="menu-description">Rozejrzyj się. Znajdź swoje miejsce.<br>Zbuduj coś po swojemu.</p>
+        <button id="play" class="play-button">Wejdź do świata <span>→</span></button>
+        <div class="controls">
+          <div><kbd>W A S D</kbd><span>Poruszanie</span></div>
+          <div><kbd>Mysz</kbd><span>Rozglądanie</span></div>
+          <div><kbd>Spacja</kbd><span>Skok / w górę</span></div>
+          <div><kbd>Shift</kbd><span>Szybszy bieg</span></div>
+          <div><kbd>LPM / PPM</kbd><span>Rozbij / postaw</span></div>
+          <div><kbd>1 – 9</kbd><span>Wybór bloku</span></div>
+          <div><kbd>F</kbd><span>Włącz / wyłącz lot</span></div>
+          <div><kbd>C</kbd><span>W dół w locie</span></div>
+        </div>
+        <p class="menu-foot">Bez pośpiechu. Bez potworów. Tylko wyobraźnia.</p>
+        <button id="respawn" class="text-button" hidden>Wróć na miejsce startu</button>
+        <p id="fallback-note" hidden>Jeśli mysz nie zostanie przechwycona, rozglądaj się strzałkami. Bloki możesz stawiać klawiszem E i rozbijać klawiszem Q.</p>
+      </section>
+      <div class="scene-caption"><span>01 / DOLINA</span><p>Każdy blok to początek.</p></div>
+    </div>
+    <div id="fatal" hidden role="alert"><h1>Nie udało się uruchomić grafiki 3D</h1><p id="fatal-detail">Otwórz grę w aktualnej przeglądarce Edge lub Chrome z włączoną akceleracją grafiki.</p></div>
+  </main>
+</body>
+</html>

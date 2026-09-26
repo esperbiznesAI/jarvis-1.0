@@ -1,0 +1,87 @@
+{
+  "name": "Twin mountains and one river",
+  "dimensions_blocks": {
+    "width": 512,
+    "length": 512
+  },
+  "deterministic": true,
+  "coordinates": "PNG column = x, PNG row = z; top is north",
+  "heightmap": {
+    "file": "heightmap.png",
+    "format": "16-bit unsigned grayscale PNG",
+    "mapping": "world_height = PNG_sample / 257; 0..65535 maps to 0..255",
+    "worldpainter_import": {
+      "image_low": 0,
+      "world_low": 0,
+      "image_high": 65535,
+      "world_high": 255,
+      "water_level": 62,
+      "scale_percent": 100
+    },
+    "minimum": 55.5992,
+    "maximum": 175.0,
+    "meadow_base_range": [
+      68.1055,
+      73.4895
+    ]
+  },
+  "terrain_mask": {
+    "file": "terrain-mask.png",
+    "format": "8-bit grayscale PNG",
+    "values": {
+      "0": "grass",
+      "1": "rock",
+      "2": "sand or gravel banks and bed"
+    }
+  },
+  "frost_mask": {
+    "file": "frost-mask.png",
+    "format": "8-bit grayscale PNG",
+    "values": {
+      "0": "no frost",
+      "255": "summit frost"
+    },
+    "height_threshold": 148.0
+  },
+  "validation": {
+    "exported_png_roundtrip": true,
+    "mountain_components_at_height_100": 2,
+    "local_maximum_regions_above_height_100": 2,
+    "peaks": [
+      {
+        "x": 140,
+        "z": 170,
+        "height": 155.0
+      },
+      {
+        "x": 375,
+        "z": 305,
+        "height": 175.0
+      }
+    ],
+    "flooded_components_4_connected": 1,
+    "river_touches_north": true,
+    "river_touches_south": true,
+    "river_touches_east_or_west": false,
+    "flooded_pixels": 7681,
+    "river_width_per_row_blocks": {
+      "min": 12,
+      "max": 18
+    },
+    "no_other_flooded_pools": true,
+    "terrain_mask_values": [
+      0,
+      1,
+      2
+    ],
+    "frost_mask_values": [
+      0,
+      255
+    ]
+  },
+  "sha256": {
+    "heightmap.png": "466aba9cdd095aa06227a28bd96e72f810be6718d6cb2546a191f588ad14333b",
+    "terrain-mask.png": "97bd00bb24d8b319874dc9c585b7dfcba7e0c6714131b66d620fb100659952f8",
+    "frost-mask.png": "9343080475258d129c708286cfd974998507e3ca01ed864f3dfbbb837815d7a4"
+  }
+}

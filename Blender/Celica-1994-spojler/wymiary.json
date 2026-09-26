@@ -1,0 +1,88 @@
+{
+  "revision": "K01",
+  "units": "mm",
+  "status": "autorski_wzorzec_powierzchni_zewnetrznej_do_prob_dopasowania",
+  "vehicle_reference": {
+    "make": "Toyota",
+    "model": "Celica GT Sport Coupe",
+    "model_year": 1994,
+    "market": "USA",
+    "chassis_family": "ST204",
+    "user_vehicle_variant_confirmed": false,
+    "source": "https://xr793.com/wp-content/uploads/2024/12/1994-Toyota-Celica.pdf#page=15",
+    "source_type": "archiwalna_kopia_oryginalnej_broszury_Toyota",
+    "published_dimensions_in": {
+      "overall_length": 177,
+      "overall_width": 68.9,
+      "wheelbase": 99.9,
+      "overall_height": 51
+    },
+    "converted_approx_dimensions_mm": {
+      "overall_length": 4496,
+      "overall_width": 1750,
+      "wheelbase": 2537,
+      "overall_height": 1295
+    },
+    "scope": "Wymiary katalogowe auta stanowia kontekst proporcji, nie dane montazowe spojlera."
+  },
+  "authored_design_dimensions_mm": {
+    "overall_span_x": 1320,
+    "overall_depth_y": 180,
+    "overall_height_z": 110,
+    "blade_max_thickness": 22,
+    "blade_max_thickness_z_range": [
+      88,
+      110
+    ],
+    "trailing_edge_thickness_before_edge_rounding": 4,
+    "support_and_foot_centre_spacing": 1218,
+    "support_and_foot_x_centres": [
+      -609,
+      609
+    ],
+    "support_width_x": 42,
+    "support_depth_y": 126,
+    "foot_width_x": 96,
+    "foot_depth_y": 154,
+    "foot_thickness_z": 8,
+    "edge_round_target_max": 3,
+    "flat_contact_datum_z": 0,
+    "blade_end_edge_round_target": 0.75
+  },
+  "design_provenance": "Wszystkie wymiary spojlera sa zalozeniami projektu K01, nie danymi OEM. Obrysy czesci zrodlowych nie okreslaja wielkosci plaskiego pola styku po zaokragleniu.",
+  "datum": {
+    "origin": "Srodek pomiedzy nominalnymi podstawami na Z=0",
+    "positive_x": "W poprzek auta, w prawo modelu",
+    "positive_y": "Ku tylowi auta",
+    "positive_z": "W gore"
+  },
+  "fit_measurements": {
+    "mount_hole_positions": null,
+    "mount_hole_diameters": null,
+    "left_contact_surface_profile": null,
+    "right_contact_surface_profile": null,
+    "underside_access_and_reinforcements": null,
+    "hatch_opening_clearance": null,
+    "fit_verified_on_vehicle": false
+  },
+  "manufacturing": {
+    "current_geometry": "Jedna polaczona pelna bryla wzorcowa",
+    "mount_holes_included": false,
+    "process": null,
+    "material": null,
+    "wall_or_laminate_thickness_mm": null,
+    "tolerances_mm": null,
+    "attachment_design": null,
+    "strength_verified": false,
+    "road_use_released": false
+  },
+  "export": {
+    "stl_coordinates_unit": "mm",
+    "expected_envelope_mm": [
+      1320,
+      180,
+      110
+    ],
+    "note": "Przy imporcie STL wybrac milimetry i sprawdzic obwiednie. STL nie zawiera specyfikacji wykonania ani zatwierdzenia mocowania."
+  }
+}

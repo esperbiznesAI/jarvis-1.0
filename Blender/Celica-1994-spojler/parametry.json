@@ -1,0 +1,41 @@
+{
+  "revision": "K01",
+  "units": "mm",
+  "purpose": "nominal_exterior_pattern_and_fit_prototype",
+  "vehicle_reference": {
+    "name": "Toyota Celica GT Sport Coupe, USA, 1994",
+    "chassis_code": "ST204",
+    "source": "https://xr793.com/wp-content/uploads/2024/12/1994-Toyota-Celica.pdf",
+    "body_width_published_in": 68.9,
+    "body_width_approx_mm": 1750,
+    "note": "Body width is context only, not a measurement of the boot lid or mounting points."
+  },
+  "design": {
+    "span_mm": 1320.0,
+    "chord_mm": 180.0,
+    "overall_height_mm": 110.0,
+    "blade_max_thickness_mm": 22.0,
+    "trailing_edge_thickness_mm": 4.0,
+    "support_centres_mm": 1218.0,
+    "support_width_mm": 42.0,
+    "support_depth_mm": 126.0,
+    "foot_width_mm": 96.0,
+    "foot_depth_mm": 154.0,
+    "foot_thickness_mm": 8.0,
+    "edge_round_target_mm": 3.0,
+    "surface_finish": "graphite metallic paint, visual only"
+  },
+  "datum": {
+    "origin": "midpoint between the nominal feet at their underside datum",
+    "x": "across vehicle, positive to the model right",
+    "y": "towards the rear of the vehicle; leading edge at negative Y",
+    "z": "up, nominal flat contact undersides at Z=0"
+  },
+  "dimension_provenance": "All spoiler dimensions are authored custom-design values, not Toyota/OEM fit dimensions.",
+  "verified_vehicle_contact_surface": false,
+  "verified_mount_hole_centres": false,
+  "mount_holes_included": false,
+  "manufacturing_wall_thickness_specified": false,
+  "attachment_strength_verified": false,
+  "road_use_released": false
+}

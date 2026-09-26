@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="420mm" height="297mm" viewBox="0 0 1680 1188">
+<title>Celica 1994 — spojler K01, nominalne wymiary projektu</title>
+<desc>Trzy schematyczne rzuty spoilera. Wymiary mm: 1320 na 180 na 110. Rozstaw osi 1218. Podstawy płaskie na Z zero, bez otworów, niedopasowane do konkretnego auta.</desc>
+<defs>
+<marker id="arrow" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M10 5 L0 0 L0 10 Z" fill="#22677a"/></marker>
+<style>
+text{font-family:"DejaVu Sans",Arial,sans-serif;fill:#182b35}
+.title{font-size:34px;font-weight:700}.sub{font-size:19px;fill:#54636a}.section{font-size:21px;font-weight:700;letter-spacing:1px}
+.small{font-size:17px}.tiny{font-size:15px;fill:#54636a}.note{font-size:18px}
+.part{fill:#e9eef0;stroke:#243f4a;stroke-width:2.4;stroke-linejoin:round}
+.hidden{fill:none;stroke:#718894;stroke-width:1.8;stroke-dasharray:8 6}
+.axis{fill:none;stroke:#889da6;stroke-width:1.2;stroke-dasharray:16 5 3 5}
+.dim{fill:none;stroke:#22677a;stroke-width:1.6;marker-start:url(#arrow);marker-end:url(#arrow)}
+.ext{fill:none;stroke:#8299a3;stroke-width:1.2}
+.num{font-size:20px;font-weight:600;fill:#22677a;paint-order:stroke;stroke:#fff;stroke-width:7px;stroke-linejoin:round}
+.rule{stroke:#d8e1e5;stroke-width:1.5}
+</style></defs>
+<rect width="1680" height="1188" fill="white"/>
+<rect x="28" y="28" width="1624" height="1132" fill="none" stroke="#ccd8dd"/>
+<rect x="28" y="28" width="12" height="111" fill="#22677a"/>
+<text class="title" x="65" y="79">CELICA 1994 / SPOJLER K01</text>
+<text class="sub" x="65" y="111">Autorski wzorzec powierzchni zewnętrznej • wymiary nominalne • jednostki: mm</text>
+<text class="small" x="1608" y="70" text-anchor="end">REWIZJA K01</text>
+<text class="tiny" x="1608" y="101" text-anchor="end">Wydruk nie jest szablonem 1:1</text>
+<line class="rule" x1="65" y1="138" x2="1615" y2="138"/>
+<!-- FRONT: x_model maps to 840+x; z_model maps to 355-z. -->
+<text class="section" x="65" y="174">01 / PRZÓD</text>
+<text class="tiny" x="65" y="198">X–Z · belka nad dwiema bocznymi podporami</text>
+<path class="ext" d="M180 239 V207 M1500 239 V207"/>
+<path class="dim" d="M180 214 H1500"/>
+<text class="num" x="840" y="205" text-anchor="middle">1320</text>
+<rect class="part" x="210" y="260" width="42" height="87" rx="3"/>
+<rect class="part" x="1428" y="260" width="42" height="87" rx="3"/>
+<rect class="part" x="183" y="347" width="96" height="8" rx="2"/>
+<rect class="part" x="1401" y="347" width="96" height="8" rx="2"/>
+<rect class="part" x="180" y="245" width="1320" height="22" rx="0.75"/>
+<path class="axis" d="M231 234 V404 M1449 234 V404 M840 229 V366"/>
+<path class="ext" d="M1509 245 H1587 M1507 355 H1587"/>
+<path class="dim" d="M1575 245 V355"/>
+<text class="num" transform="translate(1603 300) rotate(-90)" text-anchor="middle">110</text>
+<path class="ext" d="M1507 245 H1538 M1507 267 H1538"/>
+<path class="dim" d="M1526 245 V267"/>
+<text class="num" x="1526" y="229" text-anchor="middle">22</text>
+<path class="dim" d="M231 389 H1449"/>
+<text class="num" x="840" y="380" text-anchor="middle">1218 — rozstaw osi</text>
+<path class="ext" d="M181 355 H1510"/>
+<text class="small" x="945" y="337">Z=0 · płaskie podstawy, bez otworów</text>
+<text class="tiny" x="840" y="415" text-anchor="middle">Osi X podstaw: −609 / +609 względem środka modelu</text>
+<!-- TOP: y_model maps to 585+y. Hidden part envelopes remain nominal. -->
+<line class="rule" x1="65" y1="438" x2="1615" y2="438"/>
+<text class="section" x="65" y="469">02 / GÓRA</text>
+<rect class="part" x="180" y="495" width="1320" height="180" rx="0.75"/>
+<rect class="hidden" x="183" y="508" width="96" height="154" rx="3"/>
+<rect class="hidden" x="210" y="522" width="42" height="126" rx="3"/>
+<rect class="hidden" x="1401" y="508" width="96" height="154" rx="3"/>
+<rect class="hidden" x="1428" y="522" width="42" height="126" rx="3"/>
+<path class="axis" d="M231 482 V757 M1449 482 V688 M840 482 V685 M167 585 H1510"/>
+<text class="small" x="840" y="563" text-anchor="middle">Obrys belki 1320 × 180</text>
+<text class="tiny" x="840" y="621" text-anchor="middle">Linie przerywane: nominalne obrysy podpór i podstaw pod belką</text>
+<path class="ext" d="M1509 495 H1587 M1509 675 H1587"/>
+<path class="dim" d="M1575 495 V675"/>
+<text class="num" transform="translate(1603 585) rotate(-90)" text-anchor="middle">180</text>
+<path class="ext" d="M1498 508 H1538 M1498 662 H1538"/>
+<path class="dim" d="M1526 508 V662"/>
+<text class="num" transform="translate(1514 585) rotate(-90)" text-anchor="middle">154</text>
+<path class="ext" d="M1415 522 H1346 M1415 648 H1346"/>
+<path class="dim" d="M1358 522 V648"/>
+<text class="num" transform="translate(1343 585) rotate(-90)" text-anchor="middle">126</text>
+<path class="ext" d="M183 679 V715 M279 679 V715 M210 681 V755 M252 681 V755"/>
+<path class="dim" d="M183 703 H279 M210 743 H252"/>
+<text class="num" x="231" y="697" text-anchor="middle">96</text>
+<text class="num" x="231" y="737" text-anchor="middle">42</text>
+<text class="small" x="337" y="709">podstawa</text>
+<text class="small" x="337" y="749">wspornik</text>
+<path d="M840 701 V749" fill="none" stroke="#22677a" stroke-width="1.8" marker-end="url(#arrow)"/>
+<text class="small" x="867" y="732">+Y / tył auta</text>
+<text class="tiny" x="1110" y="710">2 podstawy: 96 × 154 × 8</text>
+<text class="tiny" x="1110" y="737">2 wsporniki: 42 × 126</text>
+<!-- SIDE: YZ profile is enlarged 2x. Nominal union transitions simplified. -->
+<line class="rule" x1="65" y1="777" x2="1615" y2="777"/>
+<text class="section" x="65" y="811">03 / BOK</text>
+<text class="tiny" x="65" y="836">Y–Z · powiększenie względem pozostałych rzutów</text>
+<g transform="translate(0 17)">
+<rect class="part" x="294" y="862" width="252" height="182" rx="6"/>
+<rect class="part" x="266" y="1044" width="308" height="16" rx="5"/>
+<path class="part" d="M262 840 H556 C576 840 592 858 596 858 A4 4 0 0 1 596 866 C592 866 576 884 556 884 H262 A22 22 0 0 1 262 840 Z"/>
+<path class="axis" d="M420 830 V1068"/>
+<path class="ext" d="M228 1060 H620 M240 862 V1103 M600 862 V1103"/>
+<path class="dim" d="M240 1091 H600"/>
+<text class="num" x="420" y="1082" text-anchor="middle">180</text>
+<path class="ext" d="M264 840 H184 M250 1060 H184"/>
+<path class="dim" d="M197 840 V1060"/>
+<text class="num" transform="translate(183 950) rotate(-90)" text-anchor="middle">110</text>
+<path class="ext" d="M582 1044 H649 M582 1060 H649"/>
+<path class="dim" d="M637 1044 V1060"/>
+<text class="num" x="657" y="1059">8</text>
+<text class="tiny" x="240" y="926">przód</text>
+<text class="tiny" x="556" y="926">tył</text>
+<text class="tiny" x="422" y="1024" text-anchor="middle">podstawa na Z=0</text>
+</g>
+<rect x="720" y="811" width="895" height="285" rx="8" fill="#f1f5f6"/>
+<text class="section" x="744" y="845">ZAKRES RYSUNKU</text>
+<text class="note" x="744" y="878">Wymiary spoilera są autorskie. Rzuty i przejścia uproszczono.</text>
+<text class="note" x="744" y="908">Zaokrąglenia: podpory i podstawy 3 mm; końce belki 0,75 mm.</text>
+<text class="note" x="744" y="938">Obrysy podstaw nie określają płaskiego pola styku po zaokrągleniu.</text>
+<text class="note" x="744" y="968">Pełna bryła: brak projektu ścianek, wzmocnień i mocowania.</text>
+<text class="note" x="744" y="998">Dopasowanie wymaga pomiarów klapy i przymiarki na aucie.</text>
+<text class="small" x="744" y="1034">Referencja: USA 1994 Celica GT Sport Coupe / ST204.</text>
+<text class="tiny" x="744" y="1060">Toyota: szerokość auta 68,9 cala ≈ 1750 mm; to nie wymiar klapy.</text>
+<text class="tiny" x="744" y="1083">Źródło i pozostałe dane: README.md / broszura Toyota, PDF s. 15.</text>
+<line class="rule" x1="65" y1="1128" x2="1615" y2="1128"/>
+<text class="small" x="65" y="1151">K01 • WZORZEC / PROTOTYP • brak otworów montażowych • dopasowanie i konstrukcja niezweryfikowane</text>
+<text class="tiny" x="1612" y="1151" text-anchor="end">Arkusz 1 / 1</text>
+</svg>

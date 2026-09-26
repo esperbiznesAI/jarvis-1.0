@@ -1,0 +1,33 @@
+{
+  "revision": "K01",
+  "status": "nominal_geometry_checks_passed_not_vehicle_fit_approval",
+  "dimensions_mm": {
+    "span": 1320.0000524520874,
+    "chord": 180.00000715255737,
+    "height": 109.99999940395355
+  },
+  "stl_dimensions_mm": [
+    1320.0,
+    180.0,
+    109.99999237060547
+  ],
+  "connected_components": 1,
+  "non_manifold_edges": 0,
+  "inconsistent_face_winding_edges": 0,
+  "left_right_surface_symmetry_error_mm": 0.0,
+  "non_adjacent_triangle_overlap_candidates": 0,
+  "combined_flat_nominal_contact_area_mm2": 26639.992371201515,
+  "degenerate_faces": 0,
+  "triangles": 5064,
+  "signed_pattern_volume_mm3": 6008204.044822647,
+  "flat_contact_datum_min_z_mm": 0.0,
+  "stl_sha256": "bf34f1282e02e84d556d6d5a47bbe4934070d3403f9b9b0b4ddbaa5c31fd5e81",
+  "checks_not_performed": [
+    "fit on actual car",
+    "mount hole positions",
+    "strength or fatigue",
+    "manufacturing wall thickness",
+    "aerodynamic performance",
+    "road approval"
+  ]
+}

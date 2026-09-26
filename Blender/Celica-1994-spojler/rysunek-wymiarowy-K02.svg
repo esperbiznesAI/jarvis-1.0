@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="420mm" height="297mm" viewBox="0 0 1680 1188">
+<title>Celica 1994 — sportowy spojler K02, wymiary nominalne</title>
+<desc>Wymiary mm: 1320 na 244 na 210. Skrzydło 1310 na 220, grubość 18. Dwie podpory o rozstawie 800 i kanciaste płetwy boczne.</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M10 5 L0 0 L0 10 Z" fill="#22677a"/></marker>
+<style>
+text{font-family:"DejaVu Sans",Arial,sans-serif;fill:#182b35}
+.title{font-size:34px;font-weight:700}.sub{font-size:19px;fill:#54636a}.section{font-size:21px;font-weight:700;letter-spacing:1px}
+.small{font-size:17px}.tiny{font-size:15px;fill:#54636a}.note{font-size:17px}
+.part{fill:#e9eef0;stroke:#243f4a;stroke-width:2;stroke-linejoin:round}
+.plate{fill:#ccd8de;stroke:#243f4a;stroke-width:2;stroke-linejoin:round}
+.hole{fill:#fff;stroke:#243f4a;stroke-width:2;stroke-linejoin:round}
+.hidden{fill:none;stroke:#718894;stroke-width:1.6;stroke-dasharray:7 5}
+.axis{fill:none;stroke:#889da6;stroke-width:1.2;stroke-dasharray:16 5 3 5}
+.dim{fill:none;stroke:#22677a;stroke-width:1.4;marker-start:url(#arrow);marker-end:url(#arrow)}
+.ext{fill:none;stroke:#8299a3;stroke-width:1.1}.leader{fill:none;stroke:#22677a;stroke-width:1.5}
+.num{font-size:20px;font-weight:600;fill:#22677a;paint-order:stroke;stroke:#fff;stroke-width:7px;stroke-linejoin:round}
+.rule{stroke:#d8e1e5;stroke-width:1.5}</style></defs>
+<rect width="1680" height="1188" fill="white"/><rect x="28" y="28" width="1624" height="1132" fill="none" stroke="#ccd8dd"/>
+<rect x="28" y="28" width="12" height="110" fill="#22677a"/>
+<text class="title" x="65" y="78">CELICA 1994 / SPOJLER SPORT K02</text>
+<text class="sub" x="65" y="110">Wzorzec powierzchni zewnętrznej • wymiary nominalne • jednostki: mm</text>
+<text class="small" x="1610" y="71" text-anchor="end">REWIZJA K02</text>
+<text class="tiny" x="1610" y="101" text-anchor="end">Wydruk nie jest szablonem 1:1</text>
+<line class="rule" x1="65" y1="135" x2="1615" y2="135"/>
+<text class="section" x="65" y="168">01 / PRZÓD</text>
+<text class="tiny" x="65" y="190">X–Z</text>
+<rect class="part" x="471.9" y="265.3" width="16.2" height="141.3"/>
+<rect class="part" x="444" y="404.8" width="72" height="7.2"/>
+<rect class="part" x="1191.9" y="265.3" width="16.2" height="141.3"/>
+<rect class="part" x="1164" y="404.8" width="72" height="7.2"/>
+<rect class="part" x="250.5" y="255.4" width="1179" height="16.2"/>
+<rect class="plate" x="246" y="223" width="5.4" height="79.2"/>
+<rect class="plate" x="1428.6" y="223" width="5.4" height="79.2"/>
+<line class="axis" x1="480" y1="246.4" x2="480" y2="449"/>
+<line class="axis" x1="1200" y1="246.4" x2="1200" y2="449"/>
+<line class="axis" x1="840" y1="219" x2="840" y2="419"/>
+<line class="ext" x1="230" y1="412" x2="1450" y2="412"/>
+<line class="ext" x1="246" y1="220" x2="246" y2="195"/>
+<line class="ext" x1="1434" y1="220" x2="1434" y2="195"/>
+<line class="dim" x1="246" y1="203" x2="1434" y2="203"/>
+<text class="num" x="840" y="194" text-anchor="middle">1320</text>
+<line class="ext" x1="1445" y1="223" x2="1522" y2="223"/>
+<line class="ext" x1="1445" y1="412" x2="1522" y2="412"/>
+<line class="dim" x1="1510" y1="223" x2="1510" y2="412"/>
+<text class="num" text-anchor="middle" transform="translate(1535 317.5) rotate(-90)">210</text>
+<line class="dim" x1="480" y1="438" x2="1200" y2="438"/>
+<text class="num" x="840" y="429" text-anchor="middle">800 — rozstaw osi podpór</text>
+<text class="tiny" x="840" y="465" text-anchor="middle">Osi X: −400 / +400 • płaskie podstawy na Z=0</text>
+<text class="tiny" x="280" y="376">Dwie pochylone podpory</text>
+<text class="tiny" x="880" y="376">Skrzydło: góra Z=174, grubość maks. 18</text>
+<line class="rule" x1="65" y1="486" x2="1615" y2="486"/>
+<text class="section" x="65" y="517">02 / GÓRA</text>
+<text class="tiny" x="65" y="539">X–Y</text>
+<rect class="part" x="250.5" y="550" width="1179" height="198"/>
+<rect class="hidden" x="444" y="574.3" width="72" height="127.8"/>
+<rect class="hidden" x="471.9" y="590.5" width="16.2" height="108.9"/>
+<rect class="plate" x="246" y="539.2" width="5.4" height="219.6"/>
+<line class="axis" x1="480" y1="530" x2="480" y2="780"/>
+<rect class="hidden" x="1164" y="574.3" width="72" height="127.8"/>
+<rect class="hidden" x="1191.9" y="590.5" width="16.2" height="108.9"/>
+<rect class="plate" x="1428.6" y="539.2" width="5.4" height="219.6"/>
+<line class="axis" x1="1200" y1="530" x2="1200" y2="780"/>
+<line class="axis" x1="840" y1="530" x2="840" y2="585"/>
+<line class="axis" x1="840" y1="700" x2="840" y2="767"/>
+<text class="section" x="840" y="612" text-anchor="middle">SKRZYDŁO 1310 × 220</text>
+<text class="tiny" x="840" y="645" text-anchor="middle">Linie przerywane: podpory i podstawy pod skrzydłem</text>
+<text class="small" x="840" y="677" text-anchor="middle">2 podstawy: 80 × 142 × 8 • środki Y=−12</text>
+<line class="ext" x1="1446" y1="539.2" x2="1522" y2="539.2"/>
+<line class="ext" x1="1446" y1="758.8" x2="1522" y2="758.8"/>
+<line class="dim" x1="1510" y1="539.2" x2="1510" y2="758.8"/>
+<text class="num" text-anchor="middle" transform="translate(1535 649) rotate(-90)">244</text>
+<line class="ext" x1="1438" y1="550" x2="1473" y2="550"/>
+<line class="ext" x1="1438" y1="748" x2="1473" y2="748"/>
+<line class="dim" x1="1461" y1="550" x2="1461" y2="748"/>
+<text class="num" text-anchor="middle" transform="translate(1486 649) rotate(-90)">220</text>
+<line class="ext" x1="444" y1="765" x2="444" y2="795"/>
+<line class="ext" x1="516" y1="765" x2="516" y2="795"/>
+<line class="dim" x1="444" y1="788" x2="516" y2="788"/>
+<text class="num" x="480" y="779" text-anchor="middle">80</text>
+<text class="tiny" x="550" y="793">szerokość podstawy</text>
+<line class="leader" x1="1160" y1="768" x2="1160" y2="798"/>
+<path d="M1160 798 l-5 -8 m5 8 l5 -8" class="leader"/>
+<text class="tiny" x="1190" y="789">+Y: tył auta</text>
+<line class="rule" x1="65" y1="815" x2="1615" y2="815"/>
+<text class="section" x="65" y="848">03 / BOK</text>
+<text class="tiny" x="65" y="870">Y–Z · płetwa zasłania część podpory</text>
+<text class="section" x="590" y="848">04 / PODPORA</text>
+<text class="tiny" x="590" y="870">Płetwa pominięta dla czytelności</text>
+<polygon class="part" points="237.55,1075.42 342.64,1075.42 350.08,929.41 313.81,929.41 237.55,1048.45"/>
+<polygon class="hole" points="263.462,1049.59 263.154,1050.48 263.079,1051.42 263.243,1052.34 263.634,1053.2 264.228,1053.93 264.986,1054.49 265.861,1054.84 266.795,1054.96 320.578,1054.96 321.271,1054.89 321.94,1054.7 322.561,1054.39 323.113,1053.96 323.575,1053.44 323.934,1052.85 324.174,1052.19 324.289,1051.51 331.193,955.717 331.169,954.955 330.991,954.214 330.665,953.524 330.206,952.916 329.632,952.414 328.967,952.039 328.241,951.808 327.482,951.73 314.258,951.73 313.744,951.766 313.239,951.873 312.753,952.048 312.297,952.289 311.878,952.591 311.506,952.948 311.186,953.353 310.925,953.798"/>
+<rect class="part" x="220.81" y="1073.56" width="132.06" height="7.44"/>
+<path class="part" d="M204.07,919.18 L361.24,919.18 C380.77,919.18 394.72,925.69 398.44,925.69 A1.86,1.86 0 0 1 398.44,929.41 C394.72,929.41 380.77,935.92 361.24,935.92 L204.07,935.92 A8.37,8.37 0 0 1 204.07,919.18 Z"/>
+<polygon class="plate" points="184.54,941.5 184.54,910.81 209.65,885.7 391,885.7 411.46,906.16 411.46,943.36 394.72,967.54 208.72,967.54"/>
+<line class="ext" x1="175.24" y1="1081" x2="420.76" y2="1081"/>
+<line class="ext" x1="184.54" y1="971" x2="184.54" y2="1116"/>
+<line class="ext" x1="411.46" y1="971" x2="411.46" y2="1116"/>
+<line class="dim" x1="184.54" y1="1106" x2="411.46" y2="1106"/>
+<text class="num" x="298" y="1097" text-anchor="middle">244</text>
+<text class="tiny" x="161" y="1053">przód</text>
+<text class="tiny" x="398" y="1053">tył</text>
+<polygon class="part" points="699.55,1075.42 804.64,1075.42 812.08,929.41 775.81,929.41 699.55,1048.45"/>
+<polygon class="hole" points="725.462,1049.59 725.154,1050.48 725.079,1051.42 725.243,1052.34 725.634,1053.2 726.228,1053.93 726.986,1054.49 727.861,1054.84 728.795,1054.96 782.578,1054.96 783.271,1054.89 783.94,1054.7 784.561,1054.39 785.113,1053.96 785.575,1053.44 785.934,1052.85 786.174,1052.19 786.289,1051.51 793.193,955.717 793.169,954.955 792.991,954.214 792.665,953.524 792.206,952.916 791.632,952.414 790.967,952.039 790.241,951.808 789.482,951.73 776.258,951.73 775.744,951.766 775.239,951.873 774.753,952.048 774.297,952.289 773.878,952.591 773.506,952.948 773.186,953.353 772.925,953.798"/>
+<rect class="part" x="682.81" y="1073.56" width="132.06" height="7.44"/>
+<path class="part" d="M666.07,919.18 L823.24,919.18 C842.77,919.18 856.72,925.69 860.44,925.69 A1.86,1.86 0 0 1 860.44,929.41 C856.72,929.41 842.77,935.92 823.24,935.92 L666.07,935.92 A8.37,8.37 0 0 1 666.07,919.18 Z"/>
+<line class="ext" x1="637.24" y1="1081" x2="882.76" y2="1081"/>
+<line class="ext" x1="682.81" y1="1085" x2="682.81" y2="1116"/>
+<line class="ext" x1="814.87" y1="1085" x2="814.87" y2="1116"/>
+<line class="dim" x1="682.81" y1="1106" x2="814.87" y2="1106"/>
+<text class="num" x="748.84" y="1097" text-anchor="middle">142</text>
+<line class="ext" x1="851" y1="1073.56" x2="894" y2="1073.56"/>
+<line class="ext" x1="851" y1="1081" x2="894" y2="1081"/>
+<text class="num" x="892" y="1066">8</text>
+<text class="tiny" x="592" y="985">Wycięcie R4</text>
+<text class="tiny" x="592" y="1005">stylistyczne</text>
+<line class="leader" x1="690" y1="992" x2="767.44" y2="999.16"/>
+<text class="num" x="895" y="944">18 max.</text>
+<text class="tiny" x="881" y="966">grubość</text>
+<text class="tiny" x="881" y="985">skrzydła</text>
+<line class="leader" x1="882" y1="940" x2="801.85" y2="927.55"/>
+<rect x="1014" y="846" width="601" height="267" rx="8" fill="#f1f5f6"/>
+<text class="section" x="1036" y="879">ZAŁOŻENIA I ZAKRES</text>
+<text class="note" x="1036" y="909">Płetwy: grubość 6; podpory: grubość 18.</text>
+<text class="note" x="1036" y="937">Promienie krawędzi: skrzydło 0,6; podpory 1,5;</text>
+<text class="note" x="1036" y="962">podstawy 2; płetwy 1. Rzuty uproszczone.</text>
+<text class="note" x="1036" y="990">Wycięcia podpór nie służą do mocowania.</text>
+<text class="note" x="1036" y="1018">Wymiary autorskie; podstawy wymagają przymiarki.</text>
+<text class="note" x="1036" y="1046">Brak projektu mocowań, ścianek i wzmocnień.</text>
+<text class="tiny" x="1036" y="1084">Referencja: Celica GT Sport Coupe USA 1994 / ST204</text>
+<line class="rule" x1="65" y1="1130" x2="1615" y2="1130"/>
+<text class="small" x="65" y="1153">K02 • WZORZEC / PROTOTYP • brak otworów montażowych • dopasowanie i konstrukcja niezweryfikowane</text>
+<text class="tiny" x="1612" y="1153" text-anchor="end">Arkusz 1 / 1</text>
+</svg>

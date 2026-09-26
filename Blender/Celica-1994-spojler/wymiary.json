@@ -1,7 +1,7 @@
 {
-  "revision": "K01",
+  "revision": "K02",
   "units": "mm",
-  "status": "autorski_wzorzec_powierzchni_zewnetrznej_do_prob_dopasowania",
+  "status": "autorski_sportowy_wzorzec_powierzchni_zewnetrznej_do_prob_dopasowania",
   "vehicle_reference": {
     "make": "Toyota",
     "model": "Celica GT Sport Coupe",
@@ -27,31 +27,117 @@
   },
   "authored_design_dimensions_mm": {
     "overall_span_x": 1320,
-    "overall_depth_y": 180,
-    "overall_height_z": 110,
-    "blade_max_thickness": 22,
+    "overall_depth_y": 244,
+    "overall_height_z": 210,
+    "blade_span_x": 1310,
+    "blade_chord_y": 220,
+    "blade_max_thickness": 18,
     "blade_max_thickness_z_range": [
-      88,
-      110
+      156,
+      174
     ],
     "trailing_edge_thickness_before_edge_rounding": 4,
-    "support_and_foot_centre_spacing": 1218,
+    "support_and_foot_centre_spacing": 800,
     "support_and_foot_x_centres": [
-      -609,
-      609
+      -400.0,
+      400.0
     ],
-    "support_width_x": 42,
-    "support_depth_y": 126,
-    "foot_width_x": 96,
-    "foot_depth_y": 154,
+    "support_width_x": 18,
+    "support_outline_yz": [
+      [
+        -65,
+        6
+      ],
+      [
+        48,
+        6
+      ],
+      [
+        56,
+        163
+      ],
+      [
+        17,
+        163
+      ],
+      [
+        -65,
+        35
+      ]
+    ],
+    "support_styling_relief_outline_yz_before_corner_rounding": [
+      [
+        -40,
+        28
+      ],
+      [
+        28,
+        28
+      ],
+      [
+        36,
+        139
+      ],
+      [
+        15,
+        139
+      ]
+    ],
+    "support_styling_relief_corner_radius_yz": 4,
+    "foot_width_x": 80,
+    "foot_depth_y": 142,
     "foot_thickness_z": 8,
-    "edge_round_target_max": 3,
-    "flat_contact_datum_z": 0,
-    "blade_end_edge_round_target": 0.75
+    "foot_centre_y": -12,
+    "endplate_thickness_x": 6,
+    "endplate_x_centres": [
+      -657.0,
+      657.0
+    ],
+    "endplate_outline_yz": [
+      [
+        -122,
+        150
+      ],
+      [
+        -122,
+        183
+      ],
+      [
+        -95,
+        210
+      ],
+      [
+        100,
+        210
+      ],
+      [
+        122,
+        188
+      ],
+      [
+        122,
+        148
+      ],
+      [
+        104,
+        122
+      ],
+      [
+        -96,
+        122
+      ]
+    ],
+    "edge_rounds": {
+      "blade": 0.6,
+      "supports": 1.5,
+      "feet": 2,
+      "endplates": 1
+    },
+    "flat_contact_datum_z": 0
   },
-  "design_provenance": "Wszystkie wymiary spojlera sa zalozeniami projektu K01, nie danymi OEM. Obrysy czesci zrodlowych nie okreslaja wielkosci plaskiego pola styku po zaokragleniu.",
+  "design_provenance": "Wszystkie wymiary spojlera sa zalozeniami SPORT K02, nie danymi OEM. Obrysy czesci sa nominalne, przed lokalnym zaokragleniem krawedzi.",
   "datum": {
-    "origin": "Srodek pomiedzy nominalnymi podstawami na Z=0",
+    "origin": "Na osi symetrii samochodu, Z=0; srodki podstaw maja Y=-12 mm",
     "positive_x": "W poprzek auta, w prawo modelu",
     "positive_y": "Ku tylowi auta",
     "positive_z": "W gore"
@@ -66,7 +152,7 @@
     "fit_verified_on_vehicle": false
   },
   "manufacturing": {
-    "current_geometry": "Jedna polaczona pelna bryla wzorcowa",
+    "current_geometry": "Jedna polaczona pelna bryla wzorcowa z wycieciami stylistycznymi w podporach",
     "mount_holes_included": false,
     "process": null,
     "material": null,
@@ -74,15 +160,18 @@
     "tolerances_mm": null,
     "attachment_design": null,
     "strength_verified": false,
-    "road_use_released": false
+    "road_use_released": false,
+    "support_styling_openings_included": true,
+    "openings_are_mount_holes": false
   },
   "export": {
     "stl_coordinates_unit": "mm",
     "expected_envelope_mm": [
       1320,
-      180,
-      110
+      244,
+      210
     ],
-    "note": "Przy imporcie STL wybrac milimetry i sprawdzic obwiednie. STL nie zawiera specyfikacji wykonania ani zatwierdzenia mocowania."
+    "note": "Przy imporcie STL wybrac milimetry i sprawdzic obwiednie. STL nie zawiera specyfikacji wykonania ani zatwierdzenia mocowania.",
+    "stl_file": "eksporty/K02-sport-wzorzec-1do1-MILIMETRY.stl"
   }
 }

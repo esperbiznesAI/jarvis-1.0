@@ -1,40 +1,126 @@
 {
-  "revision": "K01",
+  "revision": "K02",
   "units": "mm",
   "purpose": "nominal_exterior_pattern_and_fit_prototype",
   "vehicle_reference": {
     "name": "Toyota Celica GT Sport Coupe, USA, 1994",
     "chassis_code": "ST204",
-    "source": "https://xr793.com/wp-content/uploads/2024/12/1994-Toyota-Celica.pdf",
+    "source": "https://xr793.com/wp-content/uploads/2024/12/1994-Toyota-Celica.pdf#page=15",
     "body_width_published_in": 68.9,
     "body_width_approx_mm": 1750,
-    "note": "Body width is context only, not a measurement of the boot lid or mounting points."
+    "note": "Body dimensions provide visual context, not boot-lid or mounting measurements."
   },
   "design": {
-    "span_mm": 1320.0,
-    "chord_mm": 180.0,
-    "overall_height_mm": 110.0,
-    "blade_max_thickness_mm": 22.0,
-    "trailing_edge_thickness_mm": 4.0,
-    "support_centres_mm": 1218.0,
-    "support_width_mm": 42.0,
-    "support_depth_mm": 126.0,
-    "foot_width_mm": 96.0,
-    "foot_depth_mm": 154.0,
-    "foot_thickness_mm": 8.0,
-    "edge_round_target_mm": 3.0,
-    "surface_finish": "graphite metallic paint, visual only"
+    "style": "simple sport wing, angular endplates, two swept pierced supports",
+    "span_mm": 1320,
+    "overall_depth_mm": 244,
+    "overall_height_mm": 210,
+    "blade_span_mm": 1310,
+    "chord_mm": 220,
+    "blade_top_z_mm": 174,
+    "blade_max_thickness_mm": 18,
+    "blade_taper_start_y_mm": 68,
+    "trailing_edge_thickness_mm": 4,
+    "support_centres_mm": 800,
+    "support_width_mm": 18,
+    "support_outline_yz_mm": [
+      [
+        -65,
+        6
+      ],
+      [
+        48,
+        6
+      ],
+      [
+        56,
+        163
+      ],
+      [
+        17,
+        163
+      ],
+      [
+        -65,
+        35
+      ]
+    ],
+    "support_relief_yz_mm": [
+      [
+        -40,
+        28
+      ],
+      [
+        28,
+        28
+      ],
+      [
+        36,
+        139
+      ],
+      [
+        15,
+        139
+      ]
+    ],
+    "foot_width_mm": 80,
+    "foot_depth_mm": 142,
+    "foot_thickness_mm": 8,
+    "foot_centre_y_mm": -12,
+    "endplate_thickness_mm": 6,
+    "endplate_centres_mm": 1314,
+    "endplate_outline_yz_mm": [
+      [
+        -122,
+        150
+      ],
+      [
+        -122,
+        183
+      ],
+      [
+        -95,
+        210
+      ],
+      [
+        100,
+        210
+      ],
+      [
+        122,
+        188
+      ],
+      [
+        122,
+        148
+      ],
+      [
+        104,
+        122
+      ],
+      [
+        -96,
+        122
+      ]
+    ],
+    "blade_edge_round_mm": 0.6,
+    "support_edge_round_mm": 1.5,
+    "foot_edge_round_mm": 2,
+    "endplate_edge_round_mm": 1,
+    "surface_finish": "gloss black blade, satin graphite supports and endplates; visual only",
+    "support_relief_corner_radius_mm": 4
   },
   "datum": {
-    "origin": "midpoint between the nominal feet at their underside datum",
+    "origin": "on Z=0, vehicle centreline; feet at Y=-12mm",
     "x": "across vehicle, positive to the model right",
-    "y": "towards the rear of the vehicle; leading edge at negative Y",
-    "z": "up, nominal flat contact undersides at Z=0"
+    "y": "towards rear of vehicle; wing leading edge at negative Y",
+    "z": "up; nominal flat contact undersides at Z=0"
   },
   "dimension_provenance": "All spoiler dimensions are authored custom-design values, not Toyota/OEM fit dimensions.",
   "verified_vehicle_contact_surface": false,
   "verified_mount_hole_centres": false,
   "mount_holes_included": false,
+  "support_style_openings_included": true,
   "manufacturing_wall_thickness_specified": false,
   "attachment_strength_verified": false,
   "road_use_released": false

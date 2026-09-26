@@ -1,4 +1,4 @@
-"""Blender 5.x: millimetre-controlled exterior pattern for a custom low spoiler.
+"""Blender 5.x: K02 SPORT angular wing, millimetre-controlled exterior pattern.
 
 Run Blender --background --factory-startup --python build_spoiler.py.
 This is nominal exterior geometry, NOT a validated vehicle mounting design.
@@ -9,6 +9,7 @@ import json
 import math
 import struct
 import hashlib
+import sys
 
 import bpy
 import bmesh
@@ -27,7 +28,7 @@ for directory in (OUT, PREVIEW, WORK):
 MM = 0.001
 bpy.ops.wm.read_factory_settings(use_empty=True)
 scene = bpy.context.scene
-scene.name = "Celica - niski spojler K01"
+scene.name = "Celica - spojler SPORT K02"
 scene.unit_settings.system = "METRIC"
 scene.unit_settings.scale_length = 1.0
 scene.unit_settings.length_unit = "MILLIMETERS"
@@ -80,9 +81,11 @@ def mat(name, colour, metallic=0.0, roughness=0.35):
     return m
 
 
-paint = mat("Lakier grafitowy - podglad", (0.035, 0.053, 0.067), 0.60, 0.26)
-paint.node_tree.nodes["Principled BSDF"].inputs["Coat Weight"].default_value = 0.38
+paint = mat("Skrzydlo - czarny polysk", (0.006, 0.009, 0.013), 0.0, 0.26)
+paint.node_tree.nodes["Principled BSDF"].inputs["Coat Weight"].default_value = 0.48
 paint.node_tree.nodes["Principled BSDF"].inputs["Coat Roughness"].default_value = 0.19
+support_mat = mat("Podpory - grafit satynowy", (0.018,0.022,0.03), 0.12, 0.38)
+endplate_mat = mat("Pletwy - czarna satyna", (0.007,0.011,0.017), 0.0, 0.34)
 floor_mat = mat("Studio - jasny szary", (0.46, 0.49, 0.52), 0.0, 0.78)
 
 
@@ -100,6 +103,8 @@ def mesh_object(name, vertices, faces, target=source_coll):
     obj = bpy.data.objects.new(name, mesh)
     target.objects.link(obj)
     obj.data.materials.append(paint)
+    obj.data.materials.append(support_mat)
+    obj.data.materials.append(endplate_mat)
     return obj
 
 
@@ -117,34 +122,88 @@ def cubic(a, b, c, d, count=20):
             for t in [i/count for i in range(1, count+1)]]
 
 
+def prism(name, cx, thickness, outline):
+    n = len(outline)
+    v = [(x,y,z) for x in (cx-thickness/2,cx+thickness/2) for y,z in outline]
+    f = [(i,(i+1)%n,n+(i+1)%n,n+i) for i in range(n)]
+    f += [tuple(reversed(range(n))),tuple(range(n,2*n))]
+    return mesh_object(name,v,f)
+
+
+def round_outline(outline, radius, segments=8):
+    """Tangent circular fillets of a convex 2D outline, in millimetres."""
+    result = []
+    for i, xy in enumerate(outline):
+        p = Vector(xy)
+        u = (Vector(outline[(i-1)%len(outline)])-p).normalized()
+        v = (Vector(outline[(i+1)%len(outline)])-p).normalized()
+        angle = math.acos(max(-1,min(1,u.dot(v))))
+        tangent = radius/math.tan(angle/2)
+        centre = p+(u+v).normalized()*radius/math.sin(angle/2)
+        a,b = p+u*tangent-centre, p+v*tangent-centre
+        start,end = math.atan2(a.y,a.x),math.atan2(b.y,b.x)
+        sweep = (end-start+math.pi)%(2*math.pi)-math.pi
+        result += [(centre.x+radius*math.cos(start+sweep*j/segments),
+                    centre.y+radius*math.sin(start+sweep*j/segments)) for j in range(segments+1)]
+    return result
+
+
+def finish_part(obj, radius, material_index):
+    bpy.context.view_layer.objects.active = obj
+    bevel = obj.modifiers.new("Promien krawedzi " + str(radius) + "mm", "BEVEL")
+    bevel.width = radius * MM
+    bevel.segments = 5
+    bevel.limit_method = "ANGLE"
+    bevel.angle_limit = math.radians(30)
+    bevel.use_clamp_overlap = False
+    bpy.ops.object.modifier_apply(modifier=bevel.name)
+    for face in obj.data.polygons:
+        face.material_index = material_index
+        face.use_smooth = True
+    return obj
+
+
 # Symmetric, rounded/tapered styling section; no aerodynamic performance claim.
 half = D["blade_max_thickness_mm"] / 2
-zc = D["overall_height_mm"] - half
+zc = D["blade_top_z_mm"] - half
 y_le = -D["chord_mm"] / 2 + half
 y_te = D["chord_mm"] / 2 - D["trailing_edge_thickness_mm"] / 2
 te = D["trailing_edge_thickness_mm"] / 2
-profile = [(y_le, zc + half), (68.0, zc + half)]
-profile += cubic(profile[-1], (78.0, zc + half), (86.0, zc + te), (y_te, zc + te))
+profile = [(y_le, zc + half), (D["blade_taper_start_y_mm"], zc + half)]
+profile += cubic(profile[-1], (89.0, zc + half), (104.0, zc + te), (y_te, zc + te))
 profile += [(y_te + te*math.cos(t), zc + te*math.sin(t))
             for t in [math.pi/2 - math.pi*i/16 for i in range(1, 17)]]
-profile += cubic(profile[-1], (86.0, zc - te), (78.0, zc - half), (68.0, zc - half))
+profile += cubic(profile[-1], (104.0, zc - te), (89.0, zc - half), (D["blade_taper_start_y_mm"], zc - half))
 profile.append((y_le, zc-half))
 profile += [(y_le + half*math.cos(t), zc + half*math.sin(t))
             for t in [-math.pi/2 - math.pi*i/32 for i in range(1, 32)]]
 n = len(profile)
-vertices = [(xx, yy, zz) for xx in (-D["span_mm"]/2, D["span_mm"]/2) for yy, zz in profile]
+vertices = [(xx, yy, zz) for xx in (-D["blade_span_mm"]/2, D["blade_span_mm"]/2) for yy, zz in profile]
 faces = [(i, (i+1)%n, n+(i+1)%n, n+i) for i in range(n)]
 faces += [tuple(reversed(range(n))), tuple(range(n, 2*n))]
-blade = mesh_object("Belka - 1320x180, maksymalnie 22mm", vertices, faces)
+blade = finish_part(mesh_object("Skrzydlo - 1310x220, grubosc maks 18mm", vertices, faces),D["blade_edge_round_mm"],0)
 parts = [blade]
 for side, sign in (("L", -1), ("P", 1)):
     cx = sign * D["support_centres_mm"] / 2
-    parts.append(box("Wspornik_" + side, cx, 0, 6.0,
-                     D["support_width_mm"], D["support_depth_mm"], zc-6.0))
-    parts.append(box("Podstawa_" + side + " - styk nominalny", cx, 0, 0,
-                     D["foot_width_mm"], D["foot_depth_mm"], D["foot_thickness_mm"]))
+    strut = prism("Podpora pochylona_"+side,cx,D["support_width_mm"],D["support_outline_yz_mm"])
+    cutter = prism("Wyciecie stylistyczne_"+side,cx,D["support_width_mm"]+20,
+                   round_outline(D["support_relief_yz_mm"],D["support_relief_corner_radius_mm"]))
+    bpy.context.view_layer.objects.active = strut
+    slot = strut.modifiers.new("Jedno otwarcie w podporze", "BOOLEAN")
+    slot.operation = "DIFFERENCE"
+    slot.solver = "EXACT"
+    slot.object = cutter
+    bpy.ops.object.modifier_apply(modifier=slot.name)
+    bpy.data.objects.remove(cutter,do_unlink=True)
+    parts.append(finish_part(strut,D["support_edge_round_mm"],1))
+    foot = box("Podstawa_"+side+" - styk nominalny",cx,D["foot_centre_y_mm"],0,
+               D["foot_width_mm"],D["foot_depth_mm"],D["foot_thickness_mm"])
+    parts.append(finish_part(foot,D["foot_edge_round_mm"],1))
+    plate = prism("Pletwa boczna_"+side,sign*D["endplate_centres_mm"]/2,
+                  D["endplate_thickness_mm"],D["endplate_outline_yz_mm"])
+    parts.append(finish_part(plate,D["endplate_edge_round_mm"],2))
 
-body = bpy.data.objects.new("SPOJLER K01 - pelny wzorzec, nie gotowy element drogowy", blade.data.copy())
+body = bpy.data.objects.new("SPOJLER SPORT K02 - wzorzec do przymiarki", blade.data.copy())
 model_coll.objects.link(body)
 bpy.context.view_layer.objects.active = body
 body.select_set(True)
@@ -155,27 +214,7 @@ for source in parts[1:]:
     union.object = source
     bpy.ops.object.modifier_apply(modifier=union.name)
 
-# Thin blade ends use 0.75mm; the substantial supports/feet use 3mm.
-# Keep each value explicit instead of allowing a global shortest-edge clamp.
-edge_bm = bmesh.new()
-edge_bm.from_mesh(body.data)
-weight_layer = edge_bm.edges.layers.float.new("bevel_weight_edge")
-for edge in edge_bm.edges:
-    a, b = (v.co for v in edge.verts)
-    cap_edge = (abs(abs(a.x) - D["span_mm"]*MM/2) < 1e-7
-                and abs(a.x-b.x) < 1e-7)
-    edge[weight_layer] = (0.25 if cap_edge else 1.0) if edge.calc_face_angle() > math.radians(30) else 0.0
-edge_bm.to_mesh(body.data)
-edge_bm.free()
-rounding = body.modifiers.new("Zaokraglenia - podpory 3mm, konce belki 0.75mm", "BEVEL")
-rounding.width = D["edge_round_target_mm"] * MM
-rounding.segments = 6
-rounding.limit_method = "WEIGHT"
-rounding.angle_limit = math.radians(30)
-rounding.affect = "EDGES"
-rounding.use_clamp_overlap = False
-rounding.harden_normals = True
-rounding.loop_slide = True
+# Components are rounded before union; this preserves distinct clean part edges.
 symmetry = body.modifiers.new("Symetria wzgledem osi samochodu", "MIRROR")
 symmetry.use_axis[0] = True
 symmetry.use_bisect_axis[0] = True
@@ -183,6 +222,7 @@ symmetry.use_clip = True
 symmetry.merge_threshold = 0.001 * MM
 for poly in body.data.polygons:
     poly.use_smooth = True
+body.data.set_sharp_from_angle(angle=math.radians(35))
 normals = body.modifiers.new("Normalne powierzchni", "WEIGHTED_NORMAL")
 normals.keep_sharp = True
 normals.weight = 50
@@ -193,7 +233,7 @@ for part in parts:
 source_coll.hide_render = True
 source_coll.hide_viewport = True
 body["Status"] = "WZORZEC / PROTOTYP GEOMETRII; mocowanie i wykonanie niezweryfikowane"
-body["Wymiary_projektowe_mm"] = "1320 x 180 x 110"
+body["Wymiary_projektowe_mm"] = "1320 x 244 x 210"
 body["Rozstaw_srodkow_podstaw_mm"] = D["support_centres_mm"]
 body["Otwory_montazowe"] = "Nie wykonano: brak zweryfikowanej dokumentacji klapy"
 body["Powierzchnie_styku"] = "Plaskie Z=0; wymagaja dopasowania do klapy"
@@ -204,7 +244,7 @@ for side, sign in (("L", -1), ("P", 1)):
     datum_coll.objects.link(datum)
     datum.empty_display_type = "PLAIN_AXES"
     datum.empty_display_size = 0.035
-    datum.location = (sign * D["support_centres_mm"] * MM/2, 0, 0)
+    datum.location = (sign * D["support_centres_mm"] * MM/2, D["foot_centre_y_mm"]*MM, 0)
     datum.hide_render = True
     datum.hide_set(True)
 
@@ -227,10 +267,11 @@ assert nonmanifold == 0, f"Non-manifold edges: {nonmanifold}"
 assert inconsistent_winding == 0, f"Inconsistent face winding: {inconsistent_winding}"
 assert degenerate == 0, f"Degenerate faces: {degenerate}"
 assert volume > 0, "Invalid orientation/volume"
-for actual, target in zip(dimensions, (D["span_mm"], D["chord_mm"], D["overall_height_mm"])):
+for actual, target in zip(dimensions, (D["span_mm"], D["overall_depth_mm"], D["overall_height_mm"])):
     assert abs(actual-target) < 0.08, (actual, target)
 assert abs(minimum_z) < 0.01
-assert contact_area > 20000, f"Insufficient planar contact datum area: {contact_area}"
+expected_contact_area = 2*(D["foot_width_mm"]-2*D["foot_edge_round_mm"])*(D["foot_depth_mm"]-2*D["foot_edge_round_mm"])
+assert abs(contact_area-expected_contact_area) < 30, f"Unexpected nominal planar area: {contact_area}"
 bvh = BVHTree.FromPolygons(points, triangles, all_triangles=True)
 symmetry_error_mm = max(bvh.find_nearest(Vector((-p.x, p.y, p.z)))[3] for p in points) / MM
 assert symmetry_error_mm < 0.03, f"Left/right symmetry error: {symmetry_error_mm}"
@@ -258,9 +299,9 @@ while unseen:
 assert components == 1, f"Disconnected solids: {components}"
 bm.free()
 
-stl_path = OUT / "K01-wzorzec-1do1-MILIMETRY-nie-do-montazu.stl"
+stl_path = OUT / "K02-sport-wzorzec-1do1-MILIMETRY.stl"
 with stl_path.open("wb") as stream:
-    stream.write(b"CELICA K01 | millimetres | NOMINAL EXTERIOR PATTERN | MOUNTS UNVERIFIED".ljust(80, b" "))
+    stream.write(b"CELICA K02 SPORT | millimetres | EXTERIOR PATTERN | MOUNTS UNVERIFIED".ljust(80, b" "))
     stream.write(struct.pack("<I", len(triangles)))
     for tri in triangles:
         a, b, c = [points[i] / MM for i in tri]
@@ -283,8 +324,8 @@ for offset in range(84, len(blob), 50):
 stl_dimensions = [b-a for a,b in zip(stl_low, stl_high)]
 assert all(abs(a-b) < 0.01 for a,b in zip(stl_dimensions, dimensions))
 report = {
-    "revision": "K01", "status": "nominal_geometry_checks_passed_not_vehicle_fit_approval",
-    "dimensions_mm": dict(zip(("span", "chord", "height"), dimensions)),
+    "revision": "K02", "status": "nominal_geometry_checks_passed_not_vehicle_fit_approval",
+    "dimensions_mm": dict(zip(("span", "overall_depth", "height"), dimensions)),
     "stl_dimensions_mm": stl_dimensions,
     "connected_components": components, "non_manifold_edges": nonmanifold,
     "inconsistent_face_winding_edges": inconsistent_winding,
@@ -343,18 +384,19 @@ def camera(name, location, target, ortho):
     return obj
 
 
-hero = camera("01 Perspektywa", (1.55,-2.8,1.10), (0,0,0.055), 1.67)
-front = camera("02 Przod - dwie podpory", (0,-3,0.055), (0,0,0.055), 1.54)
+hero = camera("01 Perspektywa", (1.65,-2.9,1.25), (0,0,0.10), 1.68)
+front = camera("02 Przod - dwie podpory", (0,-3,0.105), (0,0,0.105), 1.54)
 top = camera("03 Gora", (0,0,3), (0,0,0), 1.54)
-side = camera("04 Profil", (3,0,0.055), (0,0,0.055), 0.235)
-detail = camera("05 Detal polaczenia", (-1.0,-0.8,0.43), (-0.58,0,0.054), 0.36)
+side = camera("04 Profil", (3,0,0.105), (0,0,0.105), 0.36)
+detail = camera("05 Detal podpory", (-0.8,-0.65,0.36), (-0.40,0,0.09), 0.37)
 scene.camera = hero
 
-notes = bpy.data.texts.new("PRZECZYTAJ - stan modelu K01")
-notes.write("CELICA 1994 GT SPORT COUPE / PROJEKT WLASNY K01\n"
-            "Model zewnetrzny w skali 1:1: 1320 x 180 x 110 mm.\n"
+notes = bpy.data.texts.new("PRZECZYTAJ - stan modelu SPORT K02")
+notes.write("CELICA 1994 GT SPORT COUPE / PROJEKT WLASNY SPORT K02\n"
+            "Skala 1:1: calosc1320 x244 x210mm; skrzydlo1310 x220, grubosc maks18mm.\n"
             "Wszystkie wymiary spojlera sa zalozeniami autorskimi, nie danymi OEM.\n"
-            "Plaskie podstawy i rozstaw1218mm wymagaja pomiarow klapy. Brak otworow.\n"
+            "Plaskie podstawy i rozstaw800mm wymagaja pomiarow klapy. Brak otworow mocujacych.\n"
+            "Dwie pochylone podpory z wycieciami stylistycznymi i dwie proste pletwy boczne.\n"
             "Bryla jest pelnym wzorcem. Nie definiuje laminatu, scianek ani wzmocnien.\n"
             "STL ma wspolrzedne w MILIMETRACH i jest tylko do prototypu/przymiarki.\n"
             "Parametry: parametry.json; regeneracja: build_spoiler.py.\n"
@@ -373,10 +415,17 @@ for screen in bpy.data.screens:
             space.clip_end = 1000
             space.shading.type = "MATERIAL"
             space.overlay.show_overlays = False
-            space.region_3d.view_perspective = "CAMERA"
+            space.region_3d.view_distance = 1.7
+            space.region_3d.view_location = (0,0,0.10)
+            space.region_3d.view_rotation = hero.rotation_euler.to_quaternion()
+            space.region_3d.view_perspective = "ORTHO"
 scene.camera = hero
-blend_path = ROOT / "Celica-1994-spojler-K01.blend"
+blend_path = ROOT / "Celica-1994-spojler-K02-Sport.blend"
 bpy.ops.wm.save_as_mainfile(filepath=str(blend_path))
+
+if "--geometry-only" in sys.argv:
+    print("GEOMETRY", json.dumps(report))
+    raise SystemExit(0)
 
 for cam, filename, resolution in (
     (hero, "01-perspektywa.png", (1800,1200)),

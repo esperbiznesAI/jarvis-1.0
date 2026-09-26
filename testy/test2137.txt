@@ -1,2 +1,0 @@
-Jarvis działa!
-Ten plik został utworzony bezpośrednio w repozytorium GitHub.

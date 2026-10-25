@@ -1,0 +1,10 @@
+REWOLWER — WERSJA WEDŁUG ZDJĘCIA
+
+Korpus, srebrny występ bębna, lufa, szyjka i szeroki chwyt
+odtworzone według widocznej bryły i układu dużych pikseli w referencji.
+Tekstura 32×32 jest osadzona w pliku .bbmodel.
+
+Otwórz magnum_44_reference.bbmodel w Blockbenchu.
+Zasoby Java są w folderze assets; model: fallout:item/magnum_44_reference.
+Podgląd reference_pose pokazuje model pod kątem zbliżonym do zdjęcia.
+Podglądy dotyczą geometrii i tekstury. Pozycje dłoni wymagają testu w grze.

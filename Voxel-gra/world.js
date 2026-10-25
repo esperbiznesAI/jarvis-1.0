@@ -100,3 +100,4 @@
   root.VoxelCore = api;
   if (typeof module !== 'undefined') module.exports = api;
 })(typeof window !== 'undefined' ? window : globalThis);
+

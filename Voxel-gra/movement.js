@@ -140,3 +140,4 @@
   root.VoxelMovement = api;
   if (typeof module !== 'undefined') module.exports = api;
 })(typeof window !== 'undefined' ? window : globalThis);
+

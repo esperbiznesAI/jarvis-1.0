@@ -1,0 +1,1843 @@
+{
+  "meta": {
+    "format_version": "4.10",
+    "model_format": "java_block",
+    "box_uv": false
+  },
+  "name": "magnum_44_reference",
+  "model_identifier": "magnum_44_reference",
+  "parent": "",
+  "credit": "Custom voxel revolver reconstructed from supplied visual reference",
+  "ambientocclusion": false,
+  "front_gui_light": true,
+  "resolution": {
+    "width": 32,
+    "height": 32
+  },
+  "elements": [
+    {
+      "name": "Korpus / gorna krawedz",
+      "type": "cube",
+      "uuid": "27dc4669-7e4a-5b02-950a-549bc1075dd3",
+      "from": [
+        0.0,
+        15.75,
+        6.125
+      ],
+      "to": [
+        9.0,
+        17.25,
+        9.875
+      ],
+      "origin": [
+        0.0,
+        0.0,
+        8.0
+      ],
+      "box_uv": false,
+      "autouv": 0,
+      "rescale": false,
+      "shade": true,
+      "visibility": true,
+      "export": true,
+      "faces": {
+        "north": {
+          "uv": [
+            6,
+            0.0,
+            0,
+            1.0
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            6,
+            5
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            0,
+            0.0,
+            6,
+            1.0
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            6,
+            5
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            8,
+            0,
+            14,
+            3
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            6,
+            5
+          ],
+          "texture": 0
+        }
+      },
+      "color": 0
+    },
+    {
+      "name": "Korpus / dolna krawedz",
+      "type": "cube",
+      "uuid": "70494c9e-706c-5a8e-98f5-765032538007",
+      "from": [
+        0.0,
+        9.75,
+        6.125
+      ],
+      "to": [
+        9.0,
+        11.25,
+        9.875
+      ],
+      "origin": [
+        0.0,
+        0.0,
+        8.0
+      ],
+      "box_uv": false,
+      "autouv": 0,
+      "rescale": false,
+      "shade": true,
+      "visibility": true,
+      "export": true,
+      "faces": {
+        "north": {
+          "uv": [
+            6,
+            4.0,
+            0,
+            5.0
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            6,
+            5
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            0,
+            4.0,
+            6,
+            5.0
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            6,
+            5
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            8,
+            0,
+            14,
+            3
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            6,
+            5
+          ],
+          "texture": 0
+        }
+      },
+      "color": 1
+    },
+    {
+      "name": "Korpus / tyl",
+      "type": "cube",
+      "uuid": "c70d21ef-332a-5cc0-9322-48f961183d33",
+      "from": [
+        0.0,
+        11.25,
+        6.125
+      ],
+      "to": [
+        1.5,
+        15.75,
+        9.875
+      ],
+      "origin": [
+        0.0,
+        0.0,
+        8.0
+      ],
+      "box_uv": false,
+      "autouv": 0,
+      "rescale": false,
+      "shade": true,
+      "visibility": true,
+      "export": true,
+      "faces": {
+        "north": {
+          "uv": [
+            1,
+            1.0,
+            0,
+            4.0
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            6,
+            5
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            0,
+            1.0,
+            1,
+            4.0
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            6,
+            5
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            8,
+            0,
+            14,
+            3
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            6,
+            5
+          ],
+          "texture": 0
+        }
+      },
+      "color": 1
+    },
+    {
+      "name": "Korpus / przod",
+      "type": "cube",
+      "uuid": "516d798d-a978-59d2-9bbc-8d9374602086",
+      "from": [
+        7.5,
+        11.25,
+        6.125
+      ],
+      "to": [
+        9.0,
+        15.75,
+        9.875
+      ],
+      "origin": [
+        0.0,
+        0.0,
+        8.0
+      ],
+      "box_uv": false,
+      "autouv": 0,
+      "rescale": false,
+      "shade": true,
+      "visibility": true,
+      "export": true,
+      "faces": {
+        "north": {
+          "uv": [
+            6,
+            1.0,
+            5,
+            4.0
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            6,
+            5
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            5,
+            1.0,
+            6,
+            4.0
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            6,
+            5
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            8,
+            0,
+            14,
+            3
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            6,
+            5
+          ],
+          "texture": 0
+        }
+      },
+      "color": 1
+    },
+    {
+      "name": "Beben / kwadratowy srodek",
+      "type": "cube",
+      "uuid": "e76fab01-0638-5796-ad2c-af9d9a24a92b",
+      "from": [
+        1.5,
+        11.25,
+        5.75
+      ],
+      "to": [
+        7.5,
+        15.75,
+        10.25
+      ],
+      "origin": [
+        0.0,
+        0.0,
+        8.0
+      ],
+      "box_uv": false,
+      "autouv": 0,
+      "rescale": false,
+      "shade": true,
+      "visibility": true,
+      "export": true,
+      "faces": {
+        "north": {
+          "uv": [
+            20,
+            0,
+            16,
+            4
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            16,
+            0,
+            20,
+            4
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            16,
+            0,
+            20,
+            4
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            16,
+            0,
+            20,
+            4
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            16,
+            0,
+            20,
+            4
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            16,
+            0,
+            20,
+            4
+          ],
+          "texture": 0
+        }
+      },
+      "color": 1
+    },
+    {
+      "name": "Beben / srebrny wystep",
+      "type": "cube",
+      "uuid": "fe09699e-0c17-570c-816f-30635eafdc0e",
+      "from": [
+        1.875,
+        13.5,
+        5.375
+      ],
+      "to": [
+        6.375,
+        15.75,
+        10.625
+      ],
+      "origin": [
+        0.0,
+        0.0,
+        8.0
+      ],
+      "box_uv": false,
+      "autouv": 0,
+      "rescale": false,
+      "shade": true,
+      "visibility": true,
+      "export": true,
+      "faces": {
+        "north": {
+          "uv": [
+            25,
+            0,
+            22,
+            2
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            12,
+            8,
+            14,
+            10
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            22,
+            0,
+            25,
+            2
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            12,
+            8,
+            14,
+            10
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            12,
+            8,
+            14,
+            10
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            16,
+            8,
+            18,
+            10
+          ],
+          "texture": 0
+        }
+      },
+      "color": 2
+    },
+    {
+      "name": "Lufa / ciemny bok",
+      "type": "cube",
+      "uuid": "38465b82-cd10-57f4-aa41-6355c273ef5a",
+      "from": [
+        8.625,
+        15.0,
+        6.5
+      ],
+      "to": [
+        21.0,
+        16.875,
+        9.5
+      ],
+      "origin": [
+        0.0,
+        0.0,
+        8.0
+      ],
+      "box_uv": false,
+      "autouv": 0,
+      "rescale": false,
+      "shade": true,
+      "visibility": true,
+      "export": true,
+      "faces": {
+        "north": {
+          "uv": [
+            9,
+            8,
+            0,
+            10
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            0,
+            8,
+            9,
+            10
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            0,
+            8,
+            9,
+            10
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            0,
+            8,
+            9,
+            10
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            0,
+            11,
+            9,
+            12
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            0,
+            13,
+            9,
+            14
+          ],
+          "texture": 0
+        }
+      },
+      "color": 2
+    },
+    {
+      "name": "Lufa / jasny dol",
+      "type": "cube",
+      "uuid": "806d8586-b882-5234-8c80-aad41aeb014c",
+      "from": [
+        9.375,
+        14.25,
+        6.875
+      ],
+      "to": [
+        21.0,
+        15.0,
+        9.125
+      ],
+      "origin": [
+        0.0,
+        0.0,
+        8.0
+      ],
+      "box_uv": false,
+      "autouv": 0,
+      "rescale": false,
+      "shade": true,
+      "visibility": true,
+      "export": true,
+      "faces": {
+        "north": {
+          "uv": [
+            9,
+            13,
+            0,
+            14
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            0,
+            13,
+            9,
+            14
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            0,
+            13,
+            9,
+            14
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            0,
+            13,
+            9,
+            14
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            0,
+            13,
+            9,
+            14
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            0,
+            13,
+            9,
+            14
+          ],
+          "texture": 0
+        }
+      },
+      "color": 3
+    },
+    {
+      "name": "Lufa / zakonczenie",
+      "type": "cube",
+      "uuid": "f33e4d61-747c-5b07-90db-e92af0cb01ac",
+      "from": [
+        21.0,
+        14.25,
+        6.5
+      ],
+      "to": [
+        22.875,
+        16.875,
+        9.5
+      ],
+      "origin": [
+        0.0,
+        0.0,
+        8.0
+      ],
+      "box_uv": false,
+      "autouv": 0,
+      "rescale": false,
+      "shade": true,
+      "visibility": true,
+      "export": true,
+      "faces": {
+        "north": {
+          "uv": [
+            14,
+            8,
+            12,
+            10
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            16,
+            8,
+            18,
+            10
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            12,
+            8,
+            14,
+            10
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            12,
+            8,
+            14,
+            10
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            0,
+            11,
+            9,
+            12
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            12,
+            8,
+            14,
+            10
+          ],
+          "texture": 0
+        }
+      },
+      "color": 3
+    },
+    {
+      "name": "Muszka",
+      "type": "cube",
+      "uuid": "dff1ed32-aa1e-5a8d-a09d-20012c9def6c",
+      "from": [
+        19.5,
+        16.875,
+        7.55
+      ],
+      "to": [
+        22.5,
+        17.85,
+        8.45
+      ],
+      "origin": [
+        0.0,
+        0.0,
+        8.0
+      ],
+      "box_uv": false,
+      "autouv": 0,
+      "rescale": false,
+      "shade": true,
+      "visibility": true,
+      "export": true,
+      "faces": {
+        "north": {
+          "uv": [
+            18,
+            8,
+            16,
+            10
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            16,
+            8,
+            18,
+            10
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            16,
+            8,
+            18,
+            10
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            16,
+            8,
+            18,
+            10
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            16,
+            8,
+            18,
+            10
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            16,
+            8,
+            18,
+            10
+          ],
+          "texture": 0
+        }
+      },
+      "color": 3
+    },
+    {
+      "name": "Chwyt / gorna szyjka",
+      "type": "cube",
+      "uuid": "e7b7fff4-3437-59cb-84f1-1bd775793468",
+      "from": [
+        -2.25,
+        11.25,
+        6.5
+      ],
+      "to": [
+        0.375,
+        14.25,
+        9.5
+      ],
+      "origin": [
+        0.0,
+        0.0,
+        8.0
+      ],
+      "box_uv": false,
+      "autouv": 0,
+      "rescale": false,
+      "shade": true,
+      "visibility": true,
+      "export": true,
+      "faces": {
+        "north": {
+          "uv": [
+            15,
+            16,
+            12,
+            19
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            12,
+            16,
+            15,
+            19
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            12,
+            16,
+            15,
+            19
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            6,
+            16,
+            9,
+            21
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            17,
+            16,
+            19,
+            18
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            12,
+            16,
+            15,
+            19
+          ],
+          "texture": 0
+        }
+      },
+      "color": 3
+    },
+    {
+      "name": "Chwyt / srodkowy stopien",
+      "type": "cube",
+      "uuid": "d3992760-6c31-56a2-ad5d-71b0d119d34f",
+      "from": [
+        -2.25,
+        10.05,
+        5.78
+      ],
+      "to": [
+        0.375,
+        11.25,
+        10.22
+      ],
+      "origin": [
+        0.0,
+        0.0,
+        8.0
+      ],
+      "box_uv": false,
+      "autouv": 0,
+      "rescale": false,
+      "shade": true,
+      "visibility": true,
+      "export": true,
+      "faces": {
+        "north": {
+          "uv": [
+            15,
+            16,
+            12,
+            19
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            12,
+            16,
+            15,
+            19
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            12,
+            16,
+            15,
+            19
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            6,
+            16,
+            9,
+            21
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            17,
+            16,
+            19,
+            18
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            12,
+            16,
+            15,
+            19
+          ],
+          "texture": 0
+        }
+      },
+      "color": 4
+    },
+    {
+      "name": "Chwyt / wypelnienie lokcia",
+      "type": "cube",
+      "uuid": "c33485d8-f5c4-5fcb-a49a-2c3fbde1ac2c",
+      "from": [
+        -2.25,
+        8.25,
+        5.78
+      ],
+      "to": [
+        1.125,
+        10.05,
+        10.22
+      ],
+      "origin": [
+        0.0,
+        0.0,
+        8.0
+      ],
+      "box_uv": false,
+      "autouv": 0,
+      "rescale": false,
+      "shade": true,
+      "visibility": true,
+      "export": true,
+      "faces": {
+        "north": {
+          "uv": [
+            15,
+            16,
+            12,
+            19
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            12,
+            16,
+            15,
+            19
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            12,
+            16,
+            15,
+            19
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            6,
+            16,
+            9,
+            21
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            12,
+            16,
+            15,
+            19
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            12,
+            16,
+            15,
+            19
+          ],
+          "texture": 0
+        }
+      },
+      "color": 4
+    },
+    {
+      "name": "Chwyt / szeroki korpus",
+      "type": "cube",
+      "uuid": "68f6f55e-205e-58ad-a0d5-2633f4399150",
+      "from": [
+        -3.45,
+        1.425,
+        5.75
+      ],
+      "to": [
+        2.55,
+        7.5,
+        10.25
+      ],
+      "origin": [
+        0.0,
+        9.75,
+        8.0
+      ],
+      "box_uv": false,
+      "autouv": 0,
+      "rescale": false,
+      "shade": true,
+      "visibility": true,
+      "export": true,
+      "faces": {
+        "north": {
+          "uv": [
+            4.0,
+            17.214953271028037,
+            0.0,
+            21.0
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            6,
+            17.214953271028037,
+            9,
+            21.0
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            0.0,
+            17.214953271028037,
+            4.0,
+            21.0
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            6,
+            17.214953271028037,
+            9,
+            21.0
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            17,
+            16,
+            19,
+            18
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            6,
+            16,
+            9,
+            21
+          ],
+          "texture": 0
+        }
+      },
+      "color": 4,
+      "rotation": [
+        0,
+        0,
+        -45
+      ]
+    },
+    {
+      "name": "Chwyt / przedni schodek",
+      "type": "cube",
+      "uuid": "dadfd863-c3b2-5e33-92af-19b7e725a5c6",
+      "from": [
+        -0.45,
+        7.5,
+        5.75
+      ],
+      "to": [
+        2.55,
+        9.45,
+        10.25
+      ],
+      "origin": [
+        0.0,
+        9.75,
+        8.0
+      ],
+      "box_uv": false,
+      "autouv": 0,
+      "rescale": false,
+      "shade": true,
+      "visibility": true,
+      "export": true,
+      "faces": {
+        "north": {
+          "uv": [
+            4.0,
+            16.0,
+            1.9999999999999998,
+            17.214953271028037
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            6,
+            16.0,
+            9,
+            17.214953271028037
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            1.9999999999999998,
+            16.0,
+            4.0,
+            17.214953271028037
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            6,
+            16.0,
+            9,
+            17.214953271028037
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            17,
+            16,
+            19,
+            18
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            6,
+            16,
+            9,
+            21
+          ],
+          "texture": 0
+        }
+      },
+      "color": 4,
+      "rotation": [
+        0,
+        0,
+        -45
+      ]
+    },
+    {
+      "name": "Kurek / lacznik",
+      "type": "cube",
+      "uuid": "6370fa09-0a39-5f10-a4b1-58caf2c6f9a6",
+      "from": [
+        -3.75,
+        13.875,
+        7.25
+      ],
+      "to": [
+        -1.5,
+        15.75,
+        8.75
+      ],
+      "origin": [
+        0.0,
+        0.0,
+        8.0
+      ],
+      "box_uv": false,
+      "autouv": 0,
+      "rescale": false,
+      "shade": true,
+      "visibility": true,
+      "export": true,
+      "faces": {
+        "north": {
+          "uv": [
+            21,
+            12,
+            20,
+            13
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            20,
+            12,
+            21,
+            13
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            20,
+            12,
+            21,
+            13
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            20,
+            12,
+            21,
+            13
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            20,
+            12,
+            21,
+            13
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            20,
+            12,
+            21,
+            13
+          ],
+          "texture": 0
+        }
+      },
+      "color": 4
+    },
+    {
+      "name": "Kurek / schodek",
+      "type": "cube",
+      "uuid": "08789015-39e9-541c-a927-e19373280ac8",
+      "from": [
+        -4.875,
+        15.0,
+        7.25
+      ],
+      "to": [
+        -3.75,
+        16.5,
+        8.75
+      ],
+      "origin": [
+        0.0,
+        0.0,
+        8.0
+      ],
+      "box_uv": false,
+      "autouv": 0,
+      "rescale": false,
+      "shade": true,
+      "visibility": true,
+      "export": true,
+      "faces": {
+        "north": {
+          "uv": [
+            21,
+            12,
+            20,
+            13
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            20,
+            12,
+            21,
+            13
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            20,
+            12,
+            21,
+            13
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            20,
+            12,
+            21,
+            13
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            20,
+            12,
+            21,
+            13
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            20,
+            12,
+            21,
+            13
+          ],
+          "texture": 0
+        }
+      },
+      "color": 5
+    },
+    {
+      "name": "Kurek / dlugie ramie",
+      "type": "cube",
+      "uuid": "04a11425-bb8c-5919-b772-00a54d3c17cf",
+      "from": [
+        -5.85,
+        11.55,
+        7.235
+      ],
+      "to": [
+        -4.65,
+        16.05,
+        8.765
+      ],
+      "origin": [
+        -5.25,
+        15.75,
+        8.0
+      ],
+      "box_uv": false,
+      "autouv": 0,
+      "rescale": false,
+      "shade": true,
+      "visibility": true,
+      "export": true,
+      "faces": {
+        "north": {
+          "uv": [
+            21,
+            8,
+            20,
+            11
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            20,
+            8,
+            21,
+            11
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            20,
+            8,
+            21,
+            11
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            20,
+            8,
+            21,
+            11
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            20,
+            8,
+            21,
+            11
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            20,
+            8,
+            21,
+            11
+          ],
+          "texture": 0
+        }
+      },
+      "color": 5,
+      "rotation": [
+        0,
+        0,
+        -45
+      ]
+    },
+    {
+      "name": "Spust",
+      "type": "cube",
+      "uuid": "50d27c48-ea1a-5e65-9e59-32ce33bd61e3",
+      "from": [
+        3.0,
+        7.5,
+        7.4
+      ],
+      "to": [
+        4.875,
+        10.125,
+        8.6
+      ],
+      "origin": [
+        0.0,
+        0.0,
+        8.0
+      ],
+      "box_uv": false,
+      "autouv": 0,
+      "rescale": false,
+      "shade": true,
+      "visibility": true,
+      "export": true,
+      "faces": {
+        "north": {
+          "uv": [
+            26,
+            8,
+            24,
+            10
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            24,
+            8,
+            26,
+            10
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            24,
+            8,
+            26,
+            10
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            24,
+            8,
+            26,
+            10
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            24,
+            8,
+            26,
+            10
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            24,
+            8,
+            26,
+            10
+          ],
+          "texture": 0
+        }
+      },
+      "color": 5
+    }
+  ],
+  "outliner": [
+    {
+      "name": "Korpus",
+      "uuid": "1ee7de5a-8235-5e4a-a27b-919e776e1f43",
+      "origin": [
+        0,
+        0,
+        8
+      ],
+      "visibility": true,
+      "export": true,
+      "isOpen": false,
+      "children": [
+        "27dc4669-7e4a-5b02-950a-549bc1075dd3",
+        "70494c9e-706c-5a8e-98f5-765032538007",
+        "c70d21ef-332a-5cc0-9322-48f961183d33",
+        "516d798d-a978-59d2-9bbc-8d9374602086"
+      ]
+    },
+    {
+      "name": "Beben",
+      "uuid": "800cb6c5-201a-57e8-9214-1570e58dd60a",
+      "origin": [
+        0,
+        0,
+        8
+      ],
+      "visibility": true,
+      "export": true,
+      "isOpen": false,
+      "children": [
+        "e76fab01-0638-5796-ad2c-af9d9a24a92b",
+        "fe09699e-0c17-570c-816f-30635eafdc0e"
+      ]
+    },
+    {
+      "name": "Lufa",
+      "uuid": "5b58a21b-e192-5b07-b747-d2e730a676b3",
+      "origin": [
+        0,
+        0,
+        8
+      ],
+      "visibility": true,
+      "export": true,
+      "isOpen": false,
+      "children": [
+        "38465b82-cd10-57f4-aa41-6355c273ef5a",
+        "806d8586-b882-5234-8c80-aad41aeb014c",
+        "f33e4d61-747c-5b07-90db-e92af0cb01ac",
+        "dff1ed32-aa1e-5a8d-a09d-20012c9def6c"
+      ]
+    },
+    {
+      "name": "Chwyt",
+      "uuid": "ef9639a9-e3a1-5aeb-905c-87726413af30",
+      "origin": [
+        0,
+        0,
+        8
+      ],
+      "visibility": true,
+      "export": true,
+      "isOpen": false,
+      "children": [
+        "e7b7fff4-3437-59cb-84f1-1bd775793468",
+        "d3992760-6c31-56a2-ad5d-71b0d119d34f",
+        "c33485d8-f5c4-5fcb-a49a-2c3fbde1ac2c",
+        "68f6f55e-205e-58ad-a0d5-2633f4399150",
+        "dadfd863-c3b2-5e33-92af-19b7e725a5c6"
+      ]
+    },
+    {
+      "name": "Mechanizm",
+      "uuid": "0e93ef47-8004-5651-8ac0-deeec5bf9b92",
+      "origin": [
+        0,
+        0,
+        8
+      ],
+      "visibility": true,
+      "export": true,
+      "isOpen": false,
+      "children": [
+        "6370fa09-0a39-5f10-a4b1-58caf2c6f9a6",
+        "08789015-39e9-541c-a927-e19373280ac8",
+        "04a11425-bb8c-5919-b772-00a54d3c17cf",
+        "50d27c48-ea1a-5e65-9e59-32ce33bd61e3"
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "name": "magnum_44_reference.png",
+      "id": "0",
+      "uuid": "159cd596-5577-5824-ab85-3a2923d1288d",
+      "path": "",
+      "folder": "item",
+      "namespace": "fallout",
+      "particle": true,
+      "render_mode": "default",
+      "visible": true,
+      "mode": "bitmap",
+      "saved": true,
+      "width": 32,
+      "height": 32,
+      "uv_width": 32,
+      "uv_height": 32,
+      "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAIAAAD8GO2jAAACxElEQVR4nO1Vz0tUQRz/zpt5v/Y9d/fRkpKIIIkUkZ0EKw36Fxbvkh4LOiRdokuEdIigQ128dY7w0rVjeAjpkCbGxiLWgoi77Lw3896bNxPre26GugsageTnNPOdz3w+8/3ynRk0MzPjui5jrLe3l3Neq9W+V6sAMFUuG4bBGCsWi5xzxti7xUUAsAxD0zQhhOM4O40GALx+9eLL1/VrVy/Pzt6FAyArKyumaUZRVKlUlFKEkHQhiiKMsW3bvu8LIUzTTOOcc0IIQqherwNCAEB9P45jP2AH1VsGnHOllKZpURQppdDunlRISmlZVhzHUkqlVBoPwzBJEimlYRhpZG7uERwNNDo6SghRSmGMCSFSSn3vsIeCB4GmaRjjVlq23YGZZSClBAClVBiGCCEhRGcDK5dLB1jXu6q3DAqet3+epf33oP1twX9voAFIIYr5vKnrKknOeR5G6HypVMzn26Qb4+O3JibSsRTC2GvlSyMjbc5UuXxnevqgARkbGxNC5PP57e3tnp4ex3G2trY8zwuC4OPSUkpqNBqWZe2dSKOUGrvTMAzbQowdfg/QzcnJY6c/0N+/sbnZmUNGhocdx4miqNlslkolSmmhUKCU2rb9aXm58+au6ifN4OLQ0LdKpTOHXOjrc13XcRxKqed5lFLTNH3fxxivrq113txVvWXwo1aDU30P0Ie3s8ViAQB2duqPX663Ovo2yTmWTMSb9zwlPX94xc5ZQeA/eLYKAAvz1yn17z/9nK5uVKsDg4NHGZDA913HZpwDyh5kn4UYIymTNqlJKSDQ9eyhYgFzctbvZj1avWUgRBwLoeskFnEaUlIlSYIg84PdC2XouiA4nd570qV9/zBQUvqUuj2uBtlXA0rGkdD1TA4A5hd+wnGhEYwQUpwFYZhV3DI03dD2l+gkONFF+0/+Azgz6IKzEnXF6S/RL1UrNMDiTg98AAAAAElFTkSuQmCC"
+    }
+  ],
+  "display": {
+    "gui": {
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        -1,
+        0
+      ],
+      "scale": [
+        0.5,
+        0.5,
+        0.5
+      ]
+    },
+    "ground": {
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        3,
+        0
+      ],
+      "scale": [
+        0.35,
+        0.35,
+        0.35
+      ]
+    },
+    "fixed": {
+      "rotation": [
+        0,
+        180,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.6,
+        0.6,
+        0.6
+      ]
+    },
+    "thirdperson_righthand": {
+      "rotation": [
+        0,
+        -90,
+        0
+      ],
+      "translation": [
+        0,
+        1.5,
+        1
+      ],
+      "scale": [
+        0.65,
+        0.65,
+        0.65
+      ]
+    },
+    "thirdperson_lefthand": {
+      "rotation": [
+        0,
+        90,
+        0
+      ],
+      "translation": [
+        0,
+        1.5,
+        1
+      ],
+      "scale": [
+        0.65,
+        0.65,
+        0.65
+      ]
+    },
+    "firstperson_righthand": {
+      "rotation": [
+        0,
+        -90,
+        7
+      ],
+      "translation": [
+        1,
+        0.8,
+        -2.5
+      ],
+      "scale": [
+        0.6,
+        0.6,
+        0.6
+      ]
+    },
+    "firstperson_lefthand": {
+      "rotation": [
+        0,
+        90,
+        -7
+      ],
+      "translation": [
+        1,
+        0.8,
+        -2.5
+      ],
+      "scale": [
+        0.6,
+        0.6,
+        0.6
+      ]
+    }
+  }
+}

@@ -1,0 +1,2000 @@
+{
+  "$id": "1",
+  "Assets": {
+    "$id": "2",
+    "$values": [
+      {
+        "$id": "3",
+        "Terrain": {
+          "$id": "4",
+          "Id": "7e620d47-acfc-43bc-8d5d-c87d3c0003d5",
+          "Nodes": {
+            "$id": "5",
+            "101": {
+              "$id": "6",
+              "$type": "QuadSpinner.Gaea.Nodes.Draw, Gaea.Nodes",
+              "Soften": 1.1,
+              "StrokeData": "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",
+              "Id": 101,
+              "Name": "01 PODNOZA - obwodka / Draw",
+              "NodeSize": "Standard",
+              "Position": {
+                "$id": "7",
+                "X": 26000.0,
+                "Y": 26000.0
+              },
+              "Ports": {
+                "$id": "8",
+                "$values": [
+                  {
+                    "$id": "9",
+                    "Name": "In",
+                    "Type": "PrimaryIn",
+                    "IsExporting": true,
+                    "Parent": {
+                      "$ref": "6"
+                    }
+                  },
+                  {
+                    "$id": "10",
+                    "Name": "Out",
+                    "Type": "PrimaryOut",
+                    "IsExporting": true,
+                    "Parent": {
+                      "$ref": "6"
+                    }
+                  }
+                ]
+              },
+              "Modifiers": {
+                "$id": "11",
+                "$values": []
+              }
+            },
+            "102": {
+              "$id": "12",
+              "$type": "QuadSpinner.Gaea.Nodes.Draw, Gaea.Nodes",
+              "Soften": 0.8,
+              "StrokeData": "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",
+              "Id": 102,
+              "Name": "02 SZCZYTY - granica / Draw",
+              "NodeSize": "Standard",
+              "Position": {
+                "$id": "13",
+                "X": 26000.0,
+                "Y": 26180.0
+              },
+              "SaveDefinition": {
+                "$id": "14",
+                "Node": 102,
+                "Filename": "szczyty",
+                "Format": "PNG16",
+                "IsEnabled": true,
+                "DisabledInProfiles": {
+                  "$id": "15",
+                  "$values": []
+                }
+              },
+              "Ports": {
+                "$id": "16",
+                "$values": [
+                  {
+                    "$id": "17",
+                    "Name": "In",
+                    "Type": "PrimaryIn",
+                    "IsExporting": true,
+                    "Parent": {
+                      "$ref": "12"
+                    }
+                  },
+                  {
+                    "$id": "18",
+                    "Name": "Out",
+                    "Type": "PrimaryOut",
+                    "IsExporting": true,
+                    "Parent": {
+                      "$ref": "12"
+                    }
+                  }
+                ]
+              },
+              "Modifiers": {
+                "$id": "19",
+                "$values": []
+              }
+            },
+            "103": {
+              "$id": "20",
+              "$type": "QuadSpinner.Gaea.Nodes.Combine, Gaea.Nodes",
+              "PortCount": 2,
+              "Ratio": 1.0,
+              "Mode": "Max",
+              "Id": 103,
+              "Name": "03 Zamkniety pierscien",
+              "NodeSize": "Standard",
+              "Position": {
+                "$id": "21",
+                "X": 26330.0,
+                "Y": 26080.0
+              },
+              "Ports": {
+                "$id": "22",
+                "$values": [
+                  {
+                    "$id": "23",
+                    "Name": "In",
+                    "Type": "PrimaryIn, Required",
+                    "Record": {
+                      "$id": "24",
+                      "From": 101,
+                      "To": 103,
+                      "FromPort": "Out",
+                      "ToPort": "In",
+                      "IsValid": true
+                    },
+                    "IsExporting": true,
+                    "Parent": {
+                      "$ref": "20"
+                    }
+                  },
+                  {
+                    "$id": "25",
+                    "Name": "Out",
+                    "Type": "PrimaryOut",
+                    "IsExporting": true,
+                    "Parent": {
+                      "$ref": "20"
+                    }
+                  },
+                  {
+                    "$id": "26",
+                    "Name": "Input2",
+                    "Type": "In",
+                    "Record": {
+                      "$id": "27",
+                      "From": 102,
+                      "To": 103,
+                      "FromPort": "Out",
+                      "ToPort": "Input2",
+                      "IsValid": true
+                    },
+                    "IsExporting": true,
+                    "Parent": {
+                      "$ref": "20"
+                    }
+                  },
+                  {
+                    "$id": "28",
+                    "Name": "Mask",
+                    "Type": "In",
+                    "IsExporting": true,
+                    "Parent": {
+                      "$ref": "20"
+                    }
+                  }
+                ]
+              },
+              "Modifiers": {
+                "$id": "29",
+                "$values": []
+              }
+            },
+            "110": {
+              "$id": "30",
+              "$type": "QuadSpinner.Gaea.Nodes.Draw, Gaea.Nodes",
+              "Soften": 1.5,
+              "StrokeData": "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",
+              "Id": 110,
+              "Name": "04 GRZBIETY wewnetrzne / Draw",
+              "NodeSize": "Standard",
+              "Position": {
+                "$id": "31",
+                "X": 26000.0,
+                "Y": 26440.0
+              },
+              "Ports": {
+                "$id": "32",
+                "$values": [
+                  {
+                    "$id": "33",
+                    "Name": "In",
+                    "Type": "PrimaryIn",
+                    "IsExporting": true,
+                    "Parent": {
+                      "$ref": "30"
+                    }
+                  },
+                  {
+                    "$id": "34",
+                    "Name": "Out",
+                    "Type": "PrimaryOut",
+                    "IsExporting": true,
+                    "Parent": {
+                      "$ref": "30"
+                    }
+                  }
+                ]
+              },
+              "Modifiers": {
+                "$id": "35",
+                "$values": []
+              }
+            },
+            "111": {
+              "$id": "36",
+              "$type": "QuadSpinner.Gaea.Nodes.Draw, Gaea.Nodes",
+              "Soften": 0.7,
+              "StrokeData": "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",
+              "Id": 111,
+              "Name": "05 KORONY grzbietow / Draw",
+              "NodeSize": "Standard",
+              "Position": {
+                "$id": "37",
+                "X": 26000.0,
+                "Y": 26630.0
+              },
+              "Ports": {
+                "$id": "38",
+                "$values": [
+                  {
+                    "$id": "39",
+                    "Name": "In",
+                    "Type": "PrimaryIn",
+                    "IsExporting": true,
+                    "Parent": {
+                      "$ref": "36"
+                    }
+                  },
+                  {
+                    "$id": "40",
+                    "Name": "Out",
+                    "Type": "PrimaryOut",
+                    "IsExporting": true,
+                    "Parent": {
+                      "$ref": "36"
+                    }
+                  }
+                ]
+              },
+              "Modifiers": {
+                "$id": "41",
+                "$values": []
+              }
+            },
+            "112": {
+              "$id": "42",
+              "$type": "QuadSpinner.Gaea.Nodes.Combine, Gaea.Nodes",
+              "PortCount": 2,
+              "Ratio": 1.0,
+              "Mode": "Max",
+              "Id": 112,
+              "Name": "06 Wewnetrzne masywy",
+              "NodeSize": "Standard",
+              "Position": {
+                "$id": "43",
+                "X": 26330.0,
+                "Y": 26500.0
+              },
+              "Ports": {
+                "$id": "44",
+                "$values": [
+                  {
+                    "$id": "45",
+                    "Name": "In",
+                    "Type": "PrimaryIn, Required",
+                    "Record": {
+                      "$id": "46",
+                      "From": 110,
+                      "To": 112,
+                      "FromPort": "Out",
+                      "ToPort": "In",
+                      "IsValid": true
+                    },
+                    "IsExporting": true,
+                    "Parent": {
+                      "$ref": "42"
+                    }
+                  },
+                  {
+                    "$id": "47",
+                    "Name": "Out",
+                    "Type": "PrimaryOut",
+                    "IsExporting": true,
+                    "Parent": {
+                      "$ref": "42"
+                    }
+                  },
+                  {
+                    "$id": "48",
+                    "Name": "Input2",
+                    "Type": "In",
+                    "Record": {
+                      "$id": "49",
+                      "From": 111,
+                      "To": 112,
+                      "FromPort": "Out",
+                      "ToPort": "Input2",
+                      "IsValid": true
+                    },
+                    "IsExporting": true,
+                    "Parent": {
+                      "$ref": "42"
+                    }
+                  },
+                  {
+                    "$id": "50",
+                    "Name": "Mask",
+                    "Type": "In",
+                    "IsExporting": true,
+                    "Parent": {
+                      "$ref": "42"
+                    }
+                  }
+                ]
+              },
+              "Modifiers": {
+                "$id": "51",
+                "$values": []
+              }
+            },
+            "113": {
+              "$id": "52",
+              "$type": "QuadSpinner.Gaea.Nodes.Combine, Gaea.Nodes",
+              "PortCount": 2,
+              "Ratio": 1.0,
+              "Mode": "Max",
+              "Id": 113,
+              "Name": "07 Wszystkie gory",
+              "NodeSize": "Standard",
+              "Position": {
+                "$id": "53",
+                "X": 26660.0,
+                "Y": 26220.0
+              },
+              "Ports": {
+                "$id": "54",
+                "$values": [
+                  {
+                    "$id": "55",
+                    "Name": "In",
+                    "Type": "PrimaryIn, Required",
+                    "Record": {
+                      "$id": "56",
+                      "From": 103,
+                      "To": 113,
+                      "FromPort": "Out",
+                      "ToPort": "In",
+                      "IsValid": true
+                    },
+                    "IsExporting": true,
+                    "Parent": {
+                      "$ref": "52"
+                    }
+                  },
+                  {
+                    "$id": "57",
+                    "Name": "Out",
+                    "Type": "PrimaryOut",
+                    "IsExporting": true,
+                    "Parent": {
+                      "$ref": "52"
+                    }
+                  },
+                  {
+                    "$id": "58",
+                    "Name": "Input2",
+                    "Type": "In",
+                    "Record": {
+                      "$id": "59",
+                      "From": 112,
+                      "To": 113,
+                      "FromPort": "Out",
+                      "ToPort": "Input2",
+                      "IsValid": true
+                    },
+                    "IsExporting": true,
+                    "Parent": {
+                      "$ref": "52"
+                    }
+                  },
+                  {
+                    "$id": "60",
+                    "Name": "Mask",
+                    "Type": "In",
+                    "IsExporting": true,
+                    "Parent": {
+                      "$ref": "52"
+                    }
+                  }
+                ]
+              },
+              "Modifiers": {
+                "$id": "61",
+                "$values": []
+              }
+            },
+            "120": {
+              "$id": "62",
+              "$type": "QuadSpinner.Gaea.Nodes.MountainRange, Gaea.Nodes",
+              "Scale": 0.36,
+              "Height": 1.0,
+              "Seed": 43712,
+              "Id": 120,
+              "Name": "08 FAKTURA skal - seed",
+              "NodeSize": "Standard",
+              "Position": {
+                "$id": "63",
+                "X": 26330.0,
+                "Y": 26820.0
+              },
+              "Ports": {
+                "$id": "64",
+                "$values": [
+                  {
+                    "$id": "65",
+                    "Name": "In",
+                    "Type": "PrimaryIn",
+                    "IsExporting": true,
+                    "Parent": {
+                      "$ref": "62"
+                    }
+                  },
+                  {
+                    "$id": "66",
+                    "Name": "Out",
+                    "Type": "PrimaryOut",
+                    "IsExporting": true,
+                    "Parent": {
+                      "$ref": "62"
+                    }
+                  }
+                ]
+              },
+              "Modifiers": {
+                "$id": "67",
+                "$values": []
+              }
+            },
+            "121": {
+              "$id": "68",
+              "$type": "QuadSpinner.Gaea.Nodes.Combine, Gaea.Nodes",
+              "PortCount": 2,
+              "Ratio": 0.28,
+              "Mode": "Multiply",
+              "Id": 121,
+              "Name": "09 Skalne nierownosci",
+              "NodeSize": "Standard",
+              "Position": {
+                "$id": "69",
+                "X": 26660.0,
+                "Y": 26640.0
+              },
+              "Ports": {
+                "$id": "70",
+                "$values": [
+                  {
+                    "$id": "71",
+                    "Name": "In",
+                    "Type": "PrimaryIn, Required",
+                    "Record": {
+                      "$id": "72",
+                      "From": 113,
+                      "To": 121,
+                      "FromPort": "Out",
+                      "ToPort": "In",
+                      "IsValid": true
+                    },
+                    "IsExporting": true,
+                    "Parent": {
+                      "$ref": "68"
+                    }
+                  },
+                  {
+                    "$id": "73",
+                    "Name": "Out",
+                    "Type": "PrimaryOut",
+                    "IsExporting": true,
+                    "Parent": {
+                      "$ref": "68"
+                    }
+                  },
+                  {
+                    "$id": "74",
+                    "Name": "Input2",
+                    "Type": "In",
+                    "Record": {
+                      "$id": "75",
+                      "From": 120,
+                      "To": 121,
+                      "FromPort": "Out",
+                      "ToPort": "Input2",
+                      "IsValid": true
+                    },
+                    "IsExporting": true,
+                    "Parent": {
+                      "$ref": "68"
+                    }
+                  },
+                  {
+                    "$id": "76",
+                    "Name": "Mask",
+                    "Type": "In",
+                    "IsExporting": true,
+                    "Parent": {
+                      "$ref": "68"
+                    }
+                  }
+                ]
+              },
+              "Modifiers": {
+                "$id": "77",
+                "$values": []
+              }
+            },
+            "122": {
+              "$id": "78",
+              "$type": "QuadSpinner.Gaea.Nodes.Erosion2, Gaea.Nodes",
+              "Duration": 18.0,
+              "Downcutting": 0.12,
+              "ErosionScale": 900.0,
+              "Seed": 52502,
+              "Id": 122,
+              "Version": 2,
+              "Name": "10 EROZJA - delikatna",
+              "NodeSize": "Standard",
+              "Position": {
+                "$id": "79",
+                "X": 26990.0,
+                "Y": 26420.0
+              },
+              "Ports": {
+                "$id": "80",
+                "$values": [
+                  {
+                    "$id": "81",
+                    "Name": "In",
+                    "Type": "PrimaryIn, Required",
+                    "Record": {
+                      "$id": "82",
+                      "From": 121,
+                      "To": 122,
+                      "FromPort": "Out",
+                      "ToPort": "In",
+                      "IsValid": true
+                    },
+                    "IsExporting": true,
+                    "Parent": {
+                      "$ref": "78"
+                    }
+                  },
+                  {
+                    "$id": "83",
+                    "Name": "Out",
+                    "Type": "PrimaryOut",
+                    "IsExporting": true,
+                    "Parent": {
+                      "$ref": "78"
+                    }
+                  },
+                  {
+                    "$id": "84",
+                    "Name": "Flow",
+                    "Type": "Out",
+                    "IsExporting": true,
+                    "Parent": {
+                      "$ref": "78"
+                    }
+                  },
+                  {
+                    "$id": "85",
+                    "Name": "Wear",
+                    "Type": "Out",
+                    "IsExporting": true,
+                    "Parent": {
+                      "$ref": "78"
+                    }
+                  },
+                  {
+                    "$id": "86",
+                    "Name": "Deposits",
+                    "Type": "Out",
+                    "IsExporting": true,
+                    "Parent": {
+                      "$ref": "78"
+                    }
+                  },
+                  {
+                    "$id": "87",
+                    "Name": "Precipitation",
+                    "Type": "In",
+                    "IsExporting": true,
+                    "Parent": {
+                      "$ref": "78"
+                    }
+                  }
+                ]
+              },
+              "Modifiers": {
+                "$id": "88",
+                "$values": []
+              }
+            },
+            "123": {
+              "$id": "89",
+              "$type": "QuadSpinner.Gaea.Nodes.Adjust, Gaea.Nodes",
+              "Multiply": 0.72,
+              "Id": 123,
+              "Name": "11 WYSOKOSC gor",
+              "NodeSize": "Standard",
+              "Position": {
+                "$id": "90",
+                "X": 27280.0,
+                "Y": 26420.0
+              },
+              "Ports": {
+                "$id": "91",
+                "$values": [
+                  {
+                    "$id": "92",
+                    "Name": "In",
+                    "Type": "PrimaryIn, Required",
+                    "Record": {
+                      "$id": "93",
+                      "From": 122,
+                      "To": 123,
+                      "FromPort": "Out",
+                      "ToPort": "In",
+                      "IsValid": true
+                    },
+                    "IsExporting": true,
+                    "Parent": {
+                      "$ref": "89"
+                    }
+                  },
+                  {
+                    "$id": "94",
+                    "Name": "Out",
+                    "Type": "PrimaryOut",
+                    "IsExporting": true,
+                    "Parent": {
+                      "$ref": "89"
+                    }
+                  }
+                ]
+              },
+              "Modifiers": {
+                "$id": "95",
+                "$values": []
+              }
+            },
+            "124": {
+              "$id": "96",
+              "$type": "QuadSpinner.Gaea.Nodes.Constant, Gaea.Nodes",
+              "Height": 0.16666667,
+              "Id": 124,
+              "Name": "12 POZIOM DOLINY 50 m",
+              "NodeSize": "Standard",
+              "Position": {
+                "$id": "97",
+                "X": 26660.0,
+                "Y": 27000.0
+              },
+              "Ports": {
+                "$id": "98",
+                "$values": [
+                  {
+                    "$id": "99",
+                    "Name": "In",
+                    "Type": "PrimaryIn",
+                    "IsExporting": true,
+                    "Parent": {
+                      "$ref": "96"
+                    }
+                  },
+                  {
+                    "$id": "100",
+                    "Name": "Out",
+                    "Type": "PrimaryOut",
+                    "IsExporting": true,
+                    "Parent": {
+                      "$ref": "96"
+                    }
+                  }
+                ]
+              },
+              "Modifiers": {
+                "$id": "101",
+                "$values": []
+              }
+            },
+            "125": {
+              "$id": "102",
+              "$type": "QuadSpinner.Gaea.Nodes.Perlin, Gaea.Nodes",
+              "Gain": 0.35,
+              "Seed": 2137,
+              "Frequency": 0.025,
+              "Id": 125,
+              "Name": "13 Pagorki dna doliny",
+              "NodeSize": "Standard",
+              "Position": {
+                "$id": "103",
+                "X": 26330.0,
+                "Y": 27050.0
+              },
+              "Ports": {
+                "$id": "104",
+                "$values": [
+                  {
+                    "$id": "105",
+                    "Name": "In",
+                    "Type": "PrimaryIn",
+                    "IsExporting": true,
+                    "Parent": {
+                      "$ref": "102"
+                    }
+                  },
+                  {
+                    "$id": "106",
+                    "Name": "Out",
+                    "Type": "PrimaryOut",
+                    "IsExporting": true,
+                    "Parent": {
+                      "$ref": "102"
+                    }
+                  }
+                ]
+              },
+              "Modifiers": {
+                "$id": "107",
+                "$values": []
+              }
+            },
+            "126": {
+              "$id": "108",
+              "$type": "QuadSpinner.Gaea.Nodes.Adjust, Gaea.Nodes",
+              "Multiply": 0.018,
+              "Id": 126,
+              "Name": "14 Lagodne falowanie",
+              "NodeSize": "Standard",
+              "Position": {
+                "$id": "109",
+                "X": 26660.0,
+                "Y": 27180.0
+              },
+              "Ports": {
+                "$id": "110",
+                "$values": [
+                  {
+                    "$id": "111",
+                    "Name": "In",
+                    "Type": "PrimaryIn, Required",
+                    "Record": {
+                      "$id": "112",
+                      "From": 125,
+                      "To": 126,
+                      "FromPort": "Out",
+                      "ToPort": "In",
+                      "IsValid": true
+                    },
+                    "IsExporting": true,
+                    "Parent": {
+                      "$ref": "108"
+                    }
+                  },
+                  {
+                    "$id": "113",
+                    "Name": "Out",
+                    "Type": "PrimaryOut",
+                    "IsExporting": true,
+                    "Parent": {
+                      "$ref": "108"
+                    }
+                  }
+                ]
+              },
+              "Modifiers": {
+                "$id": "114",
+                "$values": []
+              }
+            },
+            "127": {
+              "$id": "115",
+              "$type": "QuadSpinner.Gaea.Nodes.Combine, Gaea.Nodes",
+              "PortCount": 2,
+              "Ratio": 1.0,
+              "Mode": "Add",
+              "Id": 127,
+              "Name": "15 Dno doliny",
+              "NodeSize": "Standard",
+              "Position": {
+                "$id": "116",
+                "X": 26990.0,
+                "Y": 27000.0
+              },
+              "Ports": {
+                "$id": "117",
+                "$values": [
+                  {
+                    "$id": "118",
+                    "Name": "In",
+                    "Type": "PrimaryIn, Required",
+                    "Record": {
+                      "$id": "119",
+                      "From": 124,
+                      "To": 127,
+                      "FromPort": "Out",
+                      "ToPort": "In",
+                      "IsValid": true
+                    },
+                    "IsExporting": true,
+                    "Parent": {
+                      "$ref": "115"
+                    }
+                  },
+                  {
+                    "$id": "120",
+                    "Name": "Out",
+                    "Type": "PrimaryOut",
+                    "IsExporting": true,
+                    "Parent": {
+                      "$ref": "115"
+                    }
+                  },
+                  {
+                    "$id": "121",
+                    "Name": "Input2",
+                    "Type": "In",
+                    "Record": {
+                      "$id": "122",
+                      "From": 126,
+                      "To": 127,
+                      "FromPort": "Out",
+                      "ToPort": "Input2",
+                      "IsValid": true
+                    },
+                    "IsExporting": true,
+                    "Parent": {
+                      "$ref": "115"
+                    }
+                  },
+                  {
+                    "$id": "123",
+                    "Name": "Mask",
+                    "Type": "In",
+                    "IsExporting": true,
+                    "Parent": {
+                      "$ref": "115"
+                    }
+                  }
+                ]
+              },
+              "Modifiers": {
+                "$id": "124",
+                "$values": []
+              }
+            },
+            "128": {
+              "$id": "125",
+              "$type": "QuadSpinner.Gaea.Nodes.Combine, Gaea.Nodes",
+              "PortCount": 2,
+              "Ratio": 1.0,
+              "Mode": "Add",
+              "Id": 128,
+              "Name": "16 Gory + dno",
+              "NodeSize": "Standard",
+              "Position": {
+                "$id": "126",
+                "X": 27590.0,
+                "Y": 26420.0
+              },
+              "Ports": {
+                "$id": "127",
+                "$values": [
+                  {
+                    "$id": "128",
+                    "Name": "In",
+                    "Type": "PrimaryIn, Required",
+                    "Record": {
+                      "$id": "129",
+                      "From": 123,
+                      "To": 128,
+                      "FromPort": "Out",
+                      "ToPort": "In",
+                      "IsValid": true
+                    },
+                    "IsExporting": true,
+                    "Parent": {
+                      "$ref": "125"
+                    }
+                  },
+                  {
+                    "$id": "130",
+                    "Name": "Out",
+                    "Type": "PrimaryOut",
+                    "IsExporting": true,
+                    "Parent": {
+                      "$ref": "125"
+                    }
+                  },
+                  {
+                    "$id": "131",
+                    "Name": "Input2",
+                    "Type": "In",
+                    "Record": {
+                      "$id": "132",
+                      "From": 127,
+                      "To": 128,
+                      "FromPort": "Out",
+                      "ToPort": "Input2",
+                      "IsValid": true
+                    },
+                    "IsExporting": true,
+                    "Parent": {
+                      "$ref": "125"
+                    }
+                  },
+                  {
+                    "$id": "133",
+                    "Name": "Mask",
+                    "Type": "In",
+                    "IsExporting": true,
+                    "Parent": {
+                      "$ref": "125"
+                    }
+                  }
+                ]
+              },
+              "Modifiers": {
+                "$id": "134",
+                "$values": []
+              }
+            },
+            "201": {
+              "$id": "135",
+              "$type": "QuadSpinner.Gaea.Nodes.Draw, Gaea.Nodes",
+              "Soften": 0.4,
+              "StrokeData": "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",
+              "Id": 201,
+              "Name": "17 SCIEZKI / Open Painter",
+              "NodeSize": "Standard",
+              "Position": {
+                "$id": "136",
+                "X": 26990.0,
+                "Y": 27420.0
+              },
+              "SaveDefinition": {
+                "$id": "137",
+                "Node": 201,
+                "Filename": "sciezki",
+                "Format": "PNG16",
+                "IsEnabled": true,
+                "DisabledInProfiles": {
+                  "$id": "138",
+                  "$values": []
+                }
+              },
+              "Ports": {
+                "$id": "139",
+                "$values": [
+                  {
+                    "$id": "140",
+                    "Name": "In",
+                    "Type": "PrimaryIn",
+                    "IsExporting": true,
+                    "Parent": {
+                      "$ref": "135"
+                    }
+                  },
+                  {
+                    "$id": "141",
+                    "Name": "Out",
+                    "Type": "PrimaryOut",
+                    "IsExporting": true,
+                    "Parent": {
+                      "$ref": "135"
+                    }
+                  }
+                ]
+              },
+              "Modifiers": {
+                "$id": "142",
+                "$values": []
+              }
+            },
+            "202": {
+              "$id": "143",
+              "$type": "QuadSpinner.Gaea.Nodes.Draw, Gaea.Nodes",
+              "Soften": 0.6,
+              "StrokeData": "vAQAAB+LCAAAAAAAAAqtk89qwzAMh9/F5xAsyZaVPMF2Gz1tlB4K7SGXDJb0MMrevcnA/4bIMtjN+Ryszz/Jx7t5eR/GeTL98W5eTW9bD4CNeVuXIP6rSdgFnQs6jSMEVrlHUbmU+NSYp/PHZbxOi5ptQ2MO58tw+/6wbin4PM7XcRrmT9NDa9djfl4EiaIY2lwIiYOG1X8dkYqZC7zpuh7wu2tAQaVQIGAVe5WKdofgQHbL7grWdRStiHIh17EoOKpWzBKqmF2Bt1Vx1wywi4U85P6xWE5TUG4E6Ci1vNrwkummGHa7MiSJGXIRYe5VRWOGFUwTU9LlmWb6DwEuQxU9pehUMVQ1jqY1TaoVzq4r/qvs6QG8/7J3vAQAAA==",
+              "Id": 202,
+              "Name": "18 POLANY MOBOW + BOSS / Draw",
+              "NodeSize": "Standard",
+              "Position": {
+                "$id": "144",
+                "X": 26990.0,
+                "Y": 27620.0
+              },
+              "SaveDefinition": {
+                "$id": "145",
+                "Node": 202,
+                "Filename": "areny",
+                "Format": "PNG16",
+                "IsEnabled": true,
+                "DisabledInProfiles": {
+                  "$id": "146",
+                  "$values": []
+                }
+              },
+              "Ports": {
+                "$id": "147",
+                "$values": [
+                  {
+                    "$id": "148",
+                    "Name": "In",
+                    "Type": "PrimaryIn",
+                    "IsExporting": true,
+                    "Parent": {
+                      "$ref": "143"
+                    }
+                  },
+                  {
+                    "$id": "149",
+                    "Name": "Out",
+                    "Type": "PrimaryOut",
+                    "IsExporting": true,
+                    "Parent": {
+                      "$ref": "143"
+                    }
+                  }
+                ]
+              },
+              "Modifiers": {
+                "$id": "150",
+                "$values": []
+              }
+            },
+            "203": {
+              "$id": "151",
+              "$type": "QuadSpinner.Gaea.Nodes.Draw, Gaea.Nodes",
+              "Soften": 0.7,
+              "StrokeData": "5AAAAB+LCAAAAAAAAAqLrlYKyM/MKylWsoquVopQsjLQMzHVUYoEMSwsTWt14ILGIIBVxgwIzLHJmGEVxGkQyBzsBiELxuooeSQWpeSlFgPdbKBnBnRtUGJKZimYZ2AEVOqZV5KaV5xZUqlkZahnUBsLAKTu02LkAAAA",
+              "Id": 203,
+              "Name": "19 START - poludnie / Draw",
+              "NodeSize": "Standard",
+              "Position": {
+                "$id": "152",
+                "X": 26990.0,
+                "Y": 27820.0
+              },
+              "Ports": {
+                "$id": "153",
+                "$values": [
+                  {
+                    "$id": "154",
+                    "Name": "In",
+                    "Type": "PrimaryIn",
+                    "IsExporting": true,
+                    "Parent": {
+                      "$ref": "151"
+                    }
+                  },
+                  {
+                    "$id": "155",
+                    "Name": "Out",
+                    "Type": "PrimaryOut",
+                    "IsExporting": true,
+                    "Parent": {
+                      "$ref": "151"
+                    }
+                  }
+                ]
+              },
+              "Modifiers": {
+                "$id": "156",
+                "$values": []
+              }
+            },
+            "204": {
+              "$id": "157",
+              "$type": "QuadSpinner.Gaea.Nodes.Combine, Gaea.Nodes",
+              "PortCount": 2,
+              "Ratio": 1.0,
+              "Mode": "Max",
+              "Id": 204,
+              "Name": "20 Polany razem",
+              "NodeSize": "Standard",
+              "Position": {
+                "$id": "158",
+                "X": 27320.0,
+                "Y": 27660.0
+              },
+              "Ports": {
+                "$id": "159",
+                "$values": [
+                  {
+                    "$id": "160",
+                    "Name": "In",
+                    "Type": "PrimaryIn, Required",
+                    "Record": {
+                      "$id": "161",
+                      "From": 202,
+                      "To": 204,
+                      "FromPort": "Out",
+                      "ToPort": "In",
+                      "IsValid": true
+                    },
+                    "IsExporting": true,
+                    "Parent": {
+                      "$ref": "157"
+                    }
+                  },
+                  {
+                    "$id": "162",
+                    "Name": "Out",
+                    "Type": "PrimaryOut",
+                    "IsExporting": true,
+                    "Parent": {
+                      "$ref": "157"
+                    }
+                  },
+                  {
+                    "$id": "163",
+                    "Name": "Input2",
+                    "Type": "In",
+                    "Record": {
+                      "$id": "164",
+                      "From": 203,
+                      "To": 204,
+                      "FromPort": "Out",
+                      "ToPort": "Input2",
+                      "IsValid": true
+                    },
+                    "IsExporting": true,
+                    "Parent": {
+                      "$ref": "157"
+                    }
+                  },
+                  {
+                    "$id": "165",
+                    "Name": "Mask",
+                    "Type": "In",
+                    "IsExporting": true,
+                    "Parent": {
+                      "$ref": "157"
+                    }
+                  }
+                ]
+              },
+              "Modifiers": {
+                "$id": "166",
+                "$values": []
+              }
+            },
+            "205": {
+              "$id": "167",
+              "$type": "QuadSpinner.Gaea.Nodes.Combine, Gaea.Nodes",
+              "PortCount": 2,
+              "Ratio": 1.0,
+              "Mode": "Max",
+              "Id": 205,
+              "Name": "21 Przestrzen gry",
+              "NodeSize": "Standard",
+              "Position": {
+                "$id": "168",
+                "X": 27610.0,
+                "Y": 27340.0
+              },
+              "SaveDefinition": {
+                "$id": "169",
+                "Node": 205,
+                "Filename": "przestrzen-gry",
+                "Format": "PNG16",
+                "IsEnabled": true,
+                "DisabledInProfiles": {
+                  "$id": "170",
+                  "$values": []
+                }
+              },
+              "Ports": {
+                "$id": "171",
+                "$values": [
+                  {
+                    "$id": "172",
+                    "Name": "In",
+                    "Type": "PrimaryIn, Required",
+                    "Record": {
+                      "$id": "173",
+                      "From": 201,
+                      "To": 205,
+                      "FromPort": "Out",
+                      "ToPort": "In",
+                      "IsValid": true
+                    },
+                    "IsExporting": true,
+                    "Parent": {
+                      "$ref": "167"
+                    }
+                  },
+                  {
+                    "$id": "174",
+                    "Name": "Out",
+                    "Type": "PrimaryOut",
+                    "IsExporting": true,
+                    "Parent": {
+                      "$ref": "167"
+                    }
+                  },
+                  {
+                    "$id": "175",
+                    "Name": "Input2",
+                    "Type": "In",
+                    "Record": {
+                      "$id": "176",
+                      "From": 204,
+                      "To": 205,
+                      "FromPort": "Out",
+                      "ToPort": "Input2",
+                      "IsValid": true
+                    },
+                    "IsExporting": true,
+                    "Parent": {
+                      "$ref": "167"
+                    }
+                  },
+                  {
+                    "$id": "177",
+                    "Name": "Mask",
+                    "Type": "In",
+                    "IsExporting": true,
+                    "Parent": {
+                      "$ref": "167"
+                    }
+                  }
+                ]
+              },
+              "Modifiers": {
+                "$id": "178",
+                "$values": []
+              }
+            },
+            "206": {
+              "$id": "179",
+              "$type": "QuadSpinner.Gaea.Nodes.Combine, Gaea.Nodes",
+              "PortCount": 2,
+              "Ratio": 1.0,
+              "Id": 206,
+              "Name": "22 TEREN FINALNY",
+              "NodeSize": "Standard",
+              "Position": {
+                "$id": "180",
+                "X": 27940.0,
+                "Y": 26530.0
+              },
+              "SaveDefinition": {
+                "$id": "181",
+                "Node": 206,
+                "Filename": "teren",
+                "Format": "PNG16",
+                "IsEnabled": true,
+                "DisabledInProfiles": {
+                  "$id": "182",
+                  "$values": []
+                }
+              },
+              "Ports": {
+                "$id": "183",
+                "$values": [
+                  {
+                    "$id": "184",
+                    "Name": "In",
+                    "Type": "PrimaryIn, Required",
+                    "Record": {
+                      "$id": "185",
+                      "From": 128,
+                      "To": 206,
+                      "FromPort": "Out",
+                      "ToPort": "In",
+                      "IsValid": true
+                    },
+                    "IsExporting": true,
+                    "Parent": {
+                      "$ref": "179"
+                    }
+                  },
+                  {
+                    "$id": "186",
+                    "Name": "Out",
+                    "Type": "PrimaryOut",
+                    "IsExporting": true,
+                    "Parent": {
+                      "$ref": "179"
+                    }
+                  },
+                  {
+                    "$id": "187",
+                    "Name": "Input2",
+                    "Type": "In",
+                    "Record": {
+                      "$id": "188",
+                      "From": 127,
+                      "To": 206,
+                      "FromPort": "Out",
+                      "ToPort": "Input2",
+                      "IsValid": true
+                    },
+                    "IsExporting": true,
+                    "Parent": {
+                      "$ref": "179"
+                    }
+                  },
+                  {
+                    "$id": "189",
+                    "Name": "Mask",
+                    "Type": "In",
+                    "Record": {
+                      "$id": "190",
+                      "From": 205,
+                      "To": 206,
+                      "FromPort": "Out",
+                      "ToPort": "Mask",
+                      "IsValid": true
+                    },
+                    "IsExporting": true,
+                    "Parent": {
+                      "$ref": "179"
+                    }
+                  }
+                ]
+              },
+              "Modifiers": {
+                "$id": "191",
+                "$values": []
+              }
+            },
+            "301": {
+              "$id": "192",
+              "$type": "QuadSpinner.Gaea.Nodes.Tint, Gaea.Nodes",
+              "Start": {
+                "$id": "193",
+                "R": 0.12,
+                "G": 0.21,
+                "B": 0.1
+              },
+              "End": {
+                "$id": "194",
+                "R": 0.31,
+                "G": 0.43,
+                "B": 0.16
+              },
+              "Id": 301,
+              "Name": "23 PODLOZE LESNE",
+              "NodeSize": "Standard",
+              "Position": {
+                "$id": "195",
+                "X": 27940.0,
+                "Y": 27110.0
+              },
+              "Ports": {
+                "$id": "196",
+                "$values": [
+                  {
+                    "$id": "197",
+                    "Name": "In",
+                    "Type": "PrimaryIn, Required",
+                    "Record": {
+                      "$id": "198",
+                      "From": 125,
+                      "To": 301,
+                      "FromPort": "Out",
+                      "ToPort": "In",
+                      "IsValid": true
+                    },
+                    "IsExporting": true,
+                    "Parent": {
+                      "$ref": "192"
+                    }
+                  },
+                  {
+                    "$id": "199",
+                    "Name": "Out",
+                    "Type": "PrimaryOut",
+                    "IsExporting": true,
+                    "Parent": {
+                      "$ref": "192"
+                    }
+                  }
+                ]
+              },
+              "Modifiers": {
+                "$id": "200",
+                "$values": []
+              }
+            },
+            "302": {
+              "$id": "201",
+              "$type": "QuadSpinner.Gaea.Nodes.Tint, Gaea.Nodes",
+              "Start": {
+                "$id": "202",
+                "R": 0.13,
+                "G": 0.17,
+                "B": 0.18
+              },
+              "End": {
+                "$id": "203",
+                "R": 0.48,
+                "G": 0.51,
+                "B": 0.48
+              },
+              "Id": 302,
+              "Name": "24 CIEMNE SKALY",
+              "NodeSize": "Standard",
+              "Position": {
+                "$id": "204",
+                "X": 27940.0,
+                "Y": 26910.0
+              },
+              "Ports": {
+                "$id": "205",
+                "$values": [
+                  {
+                    "$id": "206",
+                    "Name": "In",
+                    "Type": "PrimaryIn, Required",
+                    "Record": {
+                      "$id": "207",
+                      "From": 206,
+                      "To": 302,
+                      "FromPort": "Out",
+                      "ToPort": "In",
+                      "IsValid": true
+                    },
+                    "IsExporting": true,
+                    "Parent": {
+                      "$ref": "201"
+                    }
+                  },
+                  {
+                    "$id": "208",
+                    "Name": "Out",
+                    "Type": "PrimaryOut",
+                    "IsExporting": true,
+                    "Parent": {
+                      "$ref": "201"
+                    }
+                  }
+                ]
+              },
+              "Modifiers": {
+                "$id": "209",
+                "$values": []
+              }
+            },
+            "303": {
+              "$id": "210",
+              "$type": "QuadSpinner.Gaea.Nodes.Slope, Gaea.Nodes",
+              "Range": {
+                "$id": "211",
+                "X": 28.0,
+                "Y": 90.0
+              },
+              "Falloff": 12.0,
+              "Id": 303,
+              "Name": "25 Skala na zboczach",
+              "NodeSize": "Standard",
+              "Position": {
+                "$id": "212",
+                "X": 28270.0,
+                "Y": 26760.0
+              },
+              "Ports": {
+                "$id": "213",
+                "$values": [
+                  {
+                    "$id": "214",
+                    "Name": "In",
+                    "Type": "PrimaryIn, Required",
+                    "Record": {
+                      "$id": "215",
+                      "From": 206,
+                      "To": 303,
+                      "FromPort": "Out",
+                      "ToPort": "In",
+                      "IsValid": true
+                    },
+                    "IsExporting": true,
+                    "Parent": {
+                      "$ref": "210"
+                    }
+                  },
+                  {
+                    "$id": "216",
+                    "Name": "Out",
+                    "Type": "PrimaryOut",
+                    "IsExporting": true,
+                    "Parent": {
+                      "$ref": "210"
+                    }
+                  }
+                ]
+              },
+              "Modifiers": {
+                "$id": "217",
+                "$values": []
+              }
+            },
+            "304": {
+              "$id": "218",
+              "$type": "QuadSpinner.Gaea.Nodes.Combine, Gaea.Nodes",
+              "PortCount": 2,
+              "Ratio": 1.0,
+              "Id": 304,
+              "Name": "26 Zielen + skaly",
+              "NodeSize": "Standard",
+              "Position": {
+                "$id": "219",
+                "X": 28590.0,
+                "Y": 26970.0
+              },
+              "RenderIntentOverride": "Color",
+              "Ports": {
+                "$id": "220",
+                "$values": [
+                  {
+                    "$id": "221",
+                    "Name": "In",
+                    "Type": "PrimaryIn, Required",
+                    "Record": {
+                      "$id": "222",
+                      "From": 301,
+                      "To": 304,
+                      "FromPort": "Out",
+                      "ToPort": "In",
+                      "IsValid": true
+                    },
+                    "IsExporting": true,
+                    "Parent": {
+                      "$ref": "218"
+                    }
+                  },
+                  {
+                    "$id": "223",
+                    "Name": "Out",
+                    "Type": "PrimaryOut",
+                    "IsExporting": true,
+                    "Parent": {
+                      "$ref": "218"
+                    }
+                  },
+                  {
+                    "$id": "224",
+                    "Name": "Input2",
+                    "Type": "In",
+                    "Record": {
+                      "$id": "225",
+                      "From": 302,
+                      "To": 304,
+                      "FromPort": "Out",
+                      "ToPort": "Input2",
+                      "IsValid": true
+                    },
+                    "IsExporting": true,
+                    "Parent": {
+                      "$ref": "218"
+                    }
+                  },
+                  {
+                    "$id": "226",
+                    "Name": "Mask",
+                    "Type": "In",
+                    "Record": {
+                      "$id": "227",
+                      "From": 303,
+                      "To": 304,
+                      "FromPort": "Out",
+                      "ToPort": "Mask",
+                      "IsValid": true
+                    },
+                    "IsExporting": true,
+                    "Parent": {
+                      "$ref": "218"
+                    }
+                  }
+                ]
+              },
+              "Modifiers": {
+                "$id": "228",
+                "$values": []
+              }
+            },
+            "305": {
+              "$id": "229",
+              "$type": "QuadSpinner.Gaea.Nodes.Tint, Gaea.Nodes",
+              "Start": {
+                "$id": "230",
+                "R": 0.58,
+                "G": 0.47,
+                "B": 0.28
+              },
+              "End": {
+                "$id": "231",
+                "R": 0.83,
+                "G": 0.74,
+                "B": 0.47
+              },
+              "Id": 305,
+              "Name": "27 PIASKOWE SCIEZKI",
+              "NodeSize": "Standard",
+              "Position": {
+                "$id": "232",
+                "X": 28270.0,
+                "Y": 27330.0
+              },
+              "Ports": {
+                "$id": "233",
+                "$values": [
+                  {
+                    "$id": "234",
+                    "Name": "In",
+                    "Type": "PrimaryIn, Required",
+                    "Record": {
+                      "$id": "235",
+                      "From": 125,
+                      "To": 305,
+                      "FromPort": "Out",
+                      "ToPort": "In",
+                      "IsValid": true
+                    },
+                    "IsExporting": true,
+                    "Parent": {
+                      "$ref": "229"
+                    }
+                  },
+                  {
+                    "$id": "236",
+                    "Name": "Out",
+                    "Type": "PrimaryOut",
+                    "IsExporting": true,
+                    "Parent": {
+                      "$ref": "229"
+                    }
+                  }
+                ]
+              },
+              "Modifiers": {
+                "$id": "237",
+                "$values": []
+              }
+            },
+            "306": {
+              "$id": "238",
+              "$type": "QuadSpinner.Gaea.Nodes.Combine, Gaea.Nodes",
+              "PortCount": 2,
+              "Ratio": 1.0,
+              "Id": 306,
+              "Name": "28 Sciezki na terenie",
+              "NodeSize": "Standard",
+              "Position": {
+                "$id": "239",
+                "X": 28910.0,
+                "Y": 27150.0
+              },
+              "RenderIntentOverride": "Color",
+              "Ports": {
+                "$id": "240",
+                "$values": [
+                  {
+                    "$id": "241",
+                    "Name": "In",
+                    "Type": "PrimaryIn, Required",
+                    "Record": {
+                      "$id": "242",
+                      "From": 304,
+                      "To": 306,
+                      "FromPort": "Out",
+                      "ToPort": "In",
+                      "IsValid": true
+                    },
+                    "IsExporting": true,
+                    "Parent": {
+                      "$ref": "238"
+                    }
+                  },
+                  {
+                    "$id": "243",
+                    "Name": "Out",
+                    "Type": "PrimaryOut",
+                    "IsExporting": true,
+                    "Parent": {
+                      "$ref": "238"
+                    }
+                  },
+                  {
+                    "$id": "244",
+                    "Name": "Input2",
+                    "Type": "In",
+                    "Record": {
+                      "$id": "245",
+                      "From": 305,
+                      "To": 306,
+                      "FromPort": "Out",
+                      "ToPort": "Input2",
+                      "IsValid": true
+                    },
+                    "IsExporting": true,
+                    "Parent": {
+                      "$ref": "238"
+                    }
+                  },
+                  {
+                    "$id": "246",
+                    "Name": "Mask",
+                    "Type": "In",
+                    "Record": {
+                      "$id": "247",
+                      "From": 201,
+                      "To": 306,
+                      "FromPort": "Out",
+                      "ToPort": "Mask",
+                      "IsValid": true
+                    },
+                    "IsExporting": true,
+                    "Parent": {
+                      "$ref": "238"
+                    }
+                  }
+                ]
+              },
+              "Modifiers": {
+                "$id": "248",
+                "$values": []
+              }
+            },
+            "307": {
+              "$id": "249",
+              "$type": "QuadSpinner.Gaea.Nodes.Tint, Gaea.Nodes",
+              "Start": {
+                "$id": "250",
+                "R": 0.28,
+                "G": 0.14,
+                "B": 0.075
+              },
+              "End": {
+                "$id": "251",
+                "R": 0.48,
+                "G": 0.29,
+                "B": 0.14
+              },
+              "Id": 307,
+              "Name": "29 ZIEMIA AREN",
+              "NodeSize": "Standard",
+              "Position": {
+                "$id": "252",
+                "X": 28590.0,
+                "Y": 27610.0
+              },
+              "Ports": {
+                "$id": "253",
+                "$values": [
+                  {
+                    "$id": "254",
+                    "Name": "In",
+                    "Type": "PrimaryIn, Required",
+                    "Record": {
+                      "$id": "255",
+                      "From": 125,
+                      "To": 307,
+                      "FromPort": "Out",
+                      "ToPort": "In",
+                      "IsValid": true
+                    },
+                    "IsExporting": true,
+                    "Parent": {
+                      "$ref": "249"
+                    }
+                  },
+                  {
+                    "$id": "256",
+                    "Name": "Out",
+                    "Type": "PrimaryOut",
+                    "IsExporting": true,
+                    "Parent": {
+                      "$ref": "249"
+                    }
+                  }
+                ]
+              },
+              "Modifiers": {
+                "$id": "257",
+                "$values": []
+              }
+            },
+            "308": {
+              "$id": "258",
+              "$type": "QuadSpinner.Gaea.Nodes.Combine, Gaea.Nodes",
+              "PortCount": 2,
+              "Ratio": 1.0,
+              "Id": 308,
+              "Name": "30 KOLOR FINALNY",
+              "NodeSize": "Standard",
+              "Position": {
+                "$id": "259",
+                "X": 29220.0,
+                "Y": 27300.0
+              },
+              "RenderIntentOverride": "Color",
+              "SaveDefinition": {
+                "$id": "260",
+                "Node": 308,
+                "Filename": "kolor",
+                "Format": "PNG8",
+                "IsEnabled": true,
+                "DisabledInProfiles": {
+                  "$id": "261",
+                  "$values": []
+                }
+              },
+              "Ports": {
+                "$id": "262",
+                "$values": [
+                  {
+                    "$id": "263",
+                    "Name": "In",
+                    "Type": "PrimaryIn, Required",
+                    "Record": {
+                      "$id": "264",
+                      "From": 306,
+                      "To": 308,
+                      "FromPort": "Out",
+                      "ToPort": "In",
+                      "IsValid": true
+                    },
+                    "IsExporting": true,
+                    "Parent": {
+                      "$ref": "258"
+                    }
+                  },
+                  {
+                    "$id": "265",
+                    "Name": "Out",
+                    "Type": "PrimaryOut",
+                    "IsExporting": true,
+                    "Parent": {
+                      "$ref": "258"
+                    }
+                  },
+                  {
+                    "$id": "266",
+                    "Name": "Input2",
+                    "Type": "In",
+                    "Record": {
+                      "$id": "267",
+                      "From": 307,
+                      "To": 308,
+                      "FromPort": "Out",
+                      "ToPort": "Input2",
+                      "IsValid": true
+                    },
+                    "IsExporting": true,
+                    "Parent": {
+                      "$ref": "258"
+                    }
+                  },
+                  {
+                    "$id": "268",
+                    "Name": "Mask",
+                    "Type": "In",
+                    "Record": {
+                      "$id": "269",
+                      "From": 202,
+                      "To": 308,
+                      "FromPort": "Out",
+                      "ToPort": "Mask",
+                      "IsValid": true
+                    },
+                    "IsExporting": true,
+                    "Parent": {
+                      "$ref": "258"
+                    }
+                  }
+                ]
+              },
+              "Modifiers": {
+                "$id": "270",
+                "$values": []
+              }
+            }
+          },
+          "Groups": {
+            "$id": "271"
+          },
+          "Notes": {
+            "$id": "272"
+          },
+          "GraphTabs": {
+            "$id": "273",
+            "$values": [
+              {
+                "$id": "274",
+                "Name": "Dolina Cierni - uklad",
+                "Color": "Brass",
+                "ZoomFactor": 0.35,
+                "ViewportLocation": {
+                  "$id": "275",
+                  "X": 25850.0,
+                  "Y": 25850.0
+                }
+              }
+            ]
+          },
+          "Width": 1024.0,
+          "Height": 300.0,
+          "Ratio": 0.29296875
+        },
+        "Automation": {
+          "$id": "276",
+          "Bindings": {
+            "$id": "277",
+            "$values": []
+          },
+          "Expressions": {
+            "$id": "278"
+          },
+          "Variables": {
+            "$id": "279"
+          }
+        },
+        "BuildDefinition": {
+          "$id": "280",
+          "Destination": "C:\\Users\\PC\\Desktop\\JARVIS 1.0\\Gaea\\Dolina-Cierni\\eksport",
+          "Resolution": 1024,
+          "BakeResolution": 1024,
+          "TileResolution": 1024,
+          "BucketResolution": 1024,
+          "NumberOfTiles": 3,
+          "EdgeBlending": 0.25,
+          "TileZeroIndex": true,
+          "TilePattern": "_y%Y%_x%X%",
+          "OrganizeFiles": "NodeSubFolder"
+        },
+        "State": {
+          "$id": "281",
+          "BakeResolution": 1024,
+          "PreviewResolution": 1024,
+          "SelectedNode": 206,
+          "NodeBookmarks": {
+            "$id": "282",
+            "$values": []
+          },
+          "Viewport": {
+            "$id": "283",
+            "Camera": {
+              "$id": "284"
+            },
+            "RenderMode": "Realistic",
+            "AmbientOcclusion": true,
+            "Shadows": true
+          },
+          "UnderlayNode": 206
+        },
+        "BuildProfiles": {
+          "$id": "285"
+        }
+      }
+    ]
+  },
+  "Id": "e260275b",
+  "Branch": 1,
+  "Macros": {
+    "$id": "286",
+    "$values": []
+  },
+  "Metadata": {
+    "$id": "287",
+    "Name": "Dolina Cierni",
+    "Description": "Fantasy dolina 1024 x 1024. Native Draw: gory, sciezki, polany. Bez drzew. Wszystkie ksztalty edytowalne w Open Painter.",
+    "Version": "2.3.1.0",
+    "ModifiedVersion": "2.3.1.0",
+    "DateCreated": "2026-10-05 18:40:00Z",
+    "DateLastSaved": "2026-10-05 18:51:35Z"
+  }
+}

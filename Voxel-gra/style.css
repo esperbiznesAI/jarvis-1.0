@@ -6,3 +6,4 @@
 body.playing #coordinates{visibility:visible}#coordinates>span{display:block;font-size:10px;letter-spacing:2px;font-weight:700;color:#c6d6ca;margin-bottom:4px}#position-value{font-family:Consolas,monospace;font-variant-numeric:tabular-nums;font-size:15px;color:#fff;white-space:nowrap}
 .slot{padding:0;min-width:0}
 @media(max-width:650px){#coordinates{left:18px;top:76px;padding:8px 10px}#position-value{font-size:13px}.bottom-hud{max-width:calc(100vw - 16px)}#hotbar{gap:2px;padding:4px}.slot{width:clamp(28px,8.8vw,42px);height:44px;flex-shrink:0}.slot img{width:min(30px,calc(100% - 4px));height:auto;aspect-ratio:1}.quick-help{white-space:normal}#toast{top:145px;width:max-content;max-width:calc(100vw - 36px);font-size:12px}}
+

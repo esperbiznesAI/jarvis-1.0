@@ -152,3 +152,4 @@
   // Read-only diagnostics make local gameplay verification reproducible.
   window.voxelGame=Object.freeze({inspect:()=>({ready:true,active,fallback,selected,player:{...player},grounded:movement.grounded,flying:movement.flying,hit:hit?{...hit}:null,blocks:world.data.reduce((n,id)=>n+Number(id>0),0),worldSize:SIZE,blockTypes:blockCount,clouds:clouds.inspect(),chunks:chunks.size,drawCalls:renderer.info.render.calls,triangles:renderer.info.render.triangles})});
 })();
+

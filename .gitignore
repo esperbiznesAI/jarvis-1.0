@@ -42,3 +42,7 @@ Thumbs.db
 Desktop.ini
 .idea/
 .vscode/
+
+# Studia — wyłącznie lokalnie, nigdy nie wysyłać do repozytorium
+[Ss][Tt][Uu][Dd][Ii][Aa]/
+

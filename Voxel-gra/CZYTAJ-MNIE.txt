@@ -32,3 +32,4 @@ wysokość stóp postaci. Chmury przesuwają się powoli nad doliną.
 
 Gra wykorzystuje Three.js na licencji MIT. Licencja znajduje się
 w vendor/THREE-LICENSE.txt. Grafiki bloków powstają lokalnie w grze.
+

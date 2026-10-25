@@ -1,0 +1,27 @@
+MAGNUM .44 — MODEL DO MINECRAFT JAVA
+
+Prosty model inspirowany zdjęciami rewolweru z Fallout: New Vegas.
+Własna geometria i pikselowa tekstura; bez animacji.
+
+POPRAWKI Z ZAZNACZONYCH REFERENCJI
+Krótszy pręt bliżej lufy; poprawione frezy i UV bębna; rękojeść bez śrub, z wyrównanymi segmentami i teksturą.
+Kopia wcześniejszego projektu: wersja_przed_poprawkami.
+
+PLIKI
+magnum_44.bbmodel — edytowalny projekt z osadzoną teksturą.
+assets/fallout/models/item/magnum_44.json — model przedmiotu Java.
+assets/fallout/textures/item/magnum_44.png — tekstura 128×128.
+
+BLOCKBENCH ONLINE
+Wejdź na https://web.blockbench.net/ i wybierz „Otwórz model”.
+Otwórz magnum_44.bbmodel. Tekstura jest już w środku.
+Grupy: Rama, Beben, Lufa, Rekojesc, Spust i kurek.
+
+MINECRAFT
+Skopiuj folder assets do swojego resource packa.
+Identyfikator modelu: fallout:item/magnum_44.
+To zestaw zasobów modelu, a nie kompletny resource pack do aktywowania.
+Przypięcie do przedmiotu / CustomModelData / item_model zależy od wersji
+Minecrafta i używanego pluginu; wymaga integracji w Twoim resource packu.
+Ustawienia widoków przedmiotu są zapisane, ale wymagają sprawdzenia w grze.
+Model nie dodaje mechaniki strzelania ani obrażeń.

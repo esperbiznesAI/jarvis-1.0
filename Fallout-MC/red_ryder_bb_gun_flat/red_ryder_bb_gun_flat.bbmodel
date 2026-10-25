@@ -1,0 +1,2770 @@
+{
+  "meta": {
+    "format_version": "4.10",
+    "model_format": "java_block",
+    "box_uv": false
+  },
+  "name": "red_ryder_bb_gun_flat",
+  "model_identifier": "red_ryder_bb_gun_flat",
+  "credit": "Custom Minecraft fan model based on Fallout 1 Red Ryder BB gun; separate flat trigger and loop variant",
+  "parent": "",
+  "ambientocclusion": false,
+  "front_gui_light": true,
+  "resolution": {
+    "width": 32,
+    "height": 32
+  },
+  "elements": [
+    {
+      "name": "Lufa / glowny przekroj",
+      "type": "cube",
+      "uuid": "93baa377-2c75-5593-8bdf-43e779fc1823",
+      "from": [
+        3.9,
+        10.4,
+        7.45
+      ],
+      "to": [
+        24.4,
+        11.45,
+        8.55
+      ],
+      "origin": [
+        0,
+        0,
+        8
+      ],
+      "box_uv": false,
+      "autouv": 0,
+      "shade": true,
+      "visibility": true,
+      "export": true,
+      "rescale": false,
+      "faces": {
+        "north": {
+          "uv": [
+            20,
+            0,
+            0,
+            2
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            20,
+            2
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            20,
+            2
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            20,
+            2
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            0,
+            3,
+            20,
+            4
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            15,
+            9,
+            17,
+            11
+          ],
+          "texture": 0
+        }
+      },
+      "color": 0
+    },
+    {
+      "name": "Lufa / srodkowy dolny stopien",
+      "type": "cube",
+      "uuid": "97a35ff3-5c24-573c-9bb5-8d654bc4532c",
+      "from": [
+        5.0,
+        9.7,
+        7.3
+      ],
+      "to": [
+        15.7,
+        10.4,
+        8.7
+      ],
+      "origin": [
+        0,
+        0,
+        8
+      ],
+      "box_uv": false,
+      "autouv": 0,
+      "shade": true,
+      "visibility": true,
+      "export": true,
+      "rescale": false,
+      "faces": {
+        "north": {
+          "uv": [
+            16,
+            5,
+            0,
+            6
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            0,
+            5,
+            16,
+            6
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            0,
+            5,
+            16,
+            6
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            0,
+            5,
+            16,
+            6
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            0,
+            5,
+            16,
+            6
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            0,
+            5,
+            16,
+            6
+          ],
+          "texture": 0
+        }
+      },
+      "color": 1
+    },
+    {
+      "name": "Lufa / przedni dolny profil",
+      "type": "cube",
+      "uuid": "165b4034-61d0-5b19-bf8c-06105e3a7723",
+      "from": [
+        15.7,
+        10.05,
+        7.4
+      ],
+      "to": [
+        23.65,
+        10.4,
+        8.6
+      ],
+      "origin": [
+        0,
+        0,
+        8
+      ],
+      "box_uv": false,
+      "autouv": 0,
+      "shade": true,
+      "visibility": true,
+      "export": true,
+      "rescale": false,
+      "faces": {
+        "north": {
+          "uv": [
+            16,
+            5,
+            0,
+            6
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            0,
+            5,
+            16,
+            6
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            0,
+            5,
+            16,
+            6
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            0,
+            5,
+            16,
+            6
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            0,
+            5,
+            16,
+            6
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            0,
+            5,
+            16,
+            6
+          ],
+          "texture": 0
+        }
+      },
+      "color": 1
+    },
+    {
+      "name": "Lufa / nasada",
+      "type": "cube",
+      "uuid": "05da1123-3f3b-564f-bfc5-9dd1f7c54b80",
+      "from": [
+        3.7,
+        10.0,
+        7.2
+      ],
+      "to": [
+        6.25,
+        11.65,
+        8.8
+      ],
+      "origin": [
+        0,
+        0,
+        8
+      ],
+      "box_uv": false,
+      "autouv": 0,
+      "shade": true,
+      "visibility": true,
+      "export": true,
+      "rescale": false,
+      "faces": {
+        "north": {
+          "uv": [
+            2.55,
+            0,
+            0,
+            2
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            19,
+            9,
+            21,
+            11
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            2.55,
+            2
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            19,
+            9,
+            21,
+            11
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            0,
+            3,
+            2.55,
+            4
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            0,
+            5,
+            2.55,
+            6
+          ],
+          "texture": 0
+        }
+      },
+      "color": 1
+    },
+    {
+      "name": "Lufa / tuleja wylotu",
+      "type": "cube",
+      "uuid": "088f76d9-f807-59d8-a8e3-a73f399b3c1c",
+      "from": [
+        23.65,
+        10.1,
+        7.25
+      ],
+      "to": [
+        24.8,
+        11.55,
+        8.75
+      ],
+      "origin": [
+        0,
+        0,
+        8
+      ],
+      "box_uv": false,
+      "autouv": 0,
+      "shade": true,
+      "visibility": true,
+      "export": true,
+      "rescale": false,
+      "faces": {
+        "north": {
+          "uv": [
+            17,
+            9,
+            15,
+            11
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            28,
+            14,
+            30,
+            16
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            15,
+            9,
+            17,
+            11
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            15,
+            9,
+            17,
+            11
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            19,
+            9,
+            21,
+            11
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            15,
+            9,
+            17,
+            11
+          ],
+          "texture": 0
+        }
+      },
+      "color": 1
+    },
+    {
+      "name": "Wylot / dol",
+      "type": "cube",
+      "uuid": "799796d4-6507-5806-a90f-c2b189366977",
+      "from": [
+        24.8,
+        10.1,
+        7.25
+      ],
+      "to": [
+        25.1,
+        10.3,
+        8.75
+      ],
+      "origin": [
+        0,
+        0,
+        8
+      ],
+      "box_uv": false,
+      "autouv": 0,
+      "shade": true,
+      "visibility": true,
+      "export": true,
+      "rescale": false,
+      "faces": {
+        "north": {
+          "uv": [
+            27,
+            14,
+            25,
+            16
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            25,
+            14,
+            27,
+            16
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            25,
+            14,
+            27,
+            16
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            25,
+            14,
+            27,
+            16
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            25,
+            14,
+            27,
+            16
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            25,
+            14,
+            27,
+            16
+          ],
+          "texture": 0
+        }
+      },
+      "color": 1
+    },
+    {
+      "name": "Wylot / gora",
+      "type": "cube",
+      "uuid": "d9ef6307-0518-5fdd-a79f-cd863d653056",
+      "from": [
+        24.8,
+        11.35,
+        7.25
+      ],
+      "to": [
+        25.1,
+        11.55,
+        8.75
+      ],
+      "origin": [
+        0,
+        0,
+        8
+      ],
+      "box_uv": false,
+      "autouv": 0,
+      "shade": true,
+      "visibility": true,
+      "export": true,
+      "rescale": false,
+      "faces": {
+        "north": {
+          "uv": [
+            27,
+            14,
+            25,
+            16
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            25,
+            14,
+            27,
+            16
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            25,
+            14,
+            27,
+            16
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            25,
+            14,
+            27,
+            16
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            25,
+            14,
+            27,
+            16
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            25,
+            14,
+            27,
+            16
+          ],
+          "texture": 0
+        }
+      },
+      "color": 2
+    },
+    {
+      "name": "Wylot / bok lewy",
+      "type": "cube",
+      "uuid": "e34fa60a-5024-551e-8dee-bab0e4d59f75",
+      "from": [
+        24.8,
+        10.3,
+        7.25
+      ],
+      "to": [
+        25.1,
+        11.35,
+        7.45
+      ],
+      "origin": [
+        0,
+        0,
+        8
+      ],
+      "box_uv": false,
+      "autouv": 0,
+      "shade": true,
+      "visibility": true,
+      "export": true,
+      "rescale": false,
+      "faces": {
+        "north": {
+          "uv": [
+            27,
+            14,
+            25,
+            16
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            25,
+            14,
+            27,
+            16
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            25,
+            14,
+            27,
+            16
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            25,
+            14,
+            27,
+            16
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            25,
+            14,
+            27,
+            16
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            25,
+            14,
+            27,
+            16
+          ],
+          "texture": 0
+        }
+      },
+      "color": 2
+    },
+    {
+      "name": "Wylot / bok prawy",
+      "type": "cube",
+      "uuid": "b1a118d8-51bf-5356-9637-f0c78b4ed179",
+      "from": [
+        24.8,
+        10.3,
+        8.55
+      ],
+      "to": [
+        25.1,
+        11.35,
+        8.75
+      ],
+      "origin": [
+        0,
+        0,
+        8
+      ],
+      "box_uv": false,
+      "autouv": 0,
+      "shade": true,
+      "visibility": true,
+      "export": true,
+      "rescale": false,
+      "faces": {
+        "north": {
+          "uv": [
+            27,
+            14,
+            25,
+            16
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            25,
+            14,
+            27,
+            16
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            25,
+            14,
+            27,
+            16
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            25,
+            14,
+            27,
+            16
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            25,
+            14,
+            27,
+            16
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            25,
+            14,
+            27,
+            16
+          ],
+          "texture": 0
+        }
+      },
+      "color": 2
+    },
+    {
+      "name": "Muszka / niski wystep",
+      "type": "cube",
+      "uuid": "e8311add-dd63-552d-a729-4f3eabb8551f",
+      "from": [
+        23.7,
+        11.55,
+        7.8
+      ],
+      "to": [
+        24.1,
+        11.95,
+        8.2
+      ],
+      "origin": [
+        0,
+        0,
+        8
+      ],
+      "box_uv": false,
+      "autouv": 0,
+      "shade": true,
+      "visibility": true,
+      "export": true,
+      "rescale": false,
+      "faces": {
+        "north": {
+          "uv": [
+            30,
+            9,
+            28,
+            11
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            28,
+            9,
+            30,
+            11
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            28,
+            9,
+            30,
+            11
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            28,
+            9,
+            30,
+            11
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            28,
+            9,
+            30,
+            11
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            28,
+            9,
+            30,
+            11
+          ],
+          "texture": 0
+        }
+      },
+      "color": 2
+    },
+    {
+      "name": "Korpus / przednie zaokraglenie",
+      "type": "cube",
+      "uuid": "7dc2e0ef-3370-5c90-b057-c7cecb434c41",
+      "from": [
+        4.95,
+        9.0,
+        7.15
+      ],
+      "to": [
+        5.3,
+        11.45,
+        8.85
+      ],
+      "origin": [
+        0,
+        0,
+        8
+      ],
+      "box_uv": false,
+      "autouv": 0,
+      "shade": true,
+      "visibility": true,
+      "export": true,
+      "rescale": false,
+      "faces": {
+        "north": {
+          "uv": [
+            11.999999999999998,
+            20.616438356164384,
+            11.416666666666666,
+            23.972602739726028
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            15,
+            9,
+            17,
+            11
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            11.416666666666666,
+            20.616438356164384,
+            11.999999999999998,
+            23.972602739726028
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            15,
+            9,
+            17,
+            11
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            26.416666666666664,
+            20,
+            27.0,
+            21
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            15,
+            9,
+            17,
+            11
+          ],
+          "texture": 0
+        }
+      },
+      "color": 2
+    },
+    {
+      "name": "Korpus / dolne wybrzuszenie",
+      "type": "cube",
+      "uuid": "7f2be6fb-6eb6-5e12-9940-af4bf64d9ce7",
+      "from": [
+        4.2,
+        8.55,
+        7.05
+      ],
+      "to": [
+        4.95,
+        11.55,
+        8.95
+      ],
+      "origin": [
+        0,
+        0,
+        8
+      ],
+      "box_uv": false,
+      "autouv": 0,
+      "shade": true,
+      "visibility": true,
+      "export": true,
+      "rescale": false,
+      "faces": {
+        "north": {
+          "uv": [
+            11.416666666666666,
+            20.47945205479452,
+            10.166666666666664,
+            24.58904109589041
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            15,
+            9,
+            17,
+            11
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            10.166666666666664,
+            20.47945205479452,
+            11.416666666666666,
+            24.58904109589041
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            15,
+            9,
+            17,
+            11
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            25.166666666666664,
+            20,
+            26.416666666666664,
+            21
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            15,
+            9,
+            17,
+            11
+          ],
+          "texture": 0
+        }
+      },
+      "color": 3
+    },
+    {
+      "name": "Korpus / przednia czesc",
+      "type": "cube",
+      "uuid": "2bce7446-d0f5-5530-a025-ed9c17022355",
+      "from": [
+        2.1,
+        8.45,
+        6.95
+      ],
+      "to": [
+        4.2,
+        11.65,
+        9.05
+      ],
+      "origin": [
+        0,
+        0,
+        8
+      ],
+      "box_uv": false,
+      "autouv": 0,
+      "shade": true,
+      "visibility": true,
+      "export": true,
+      "rescale": false,
+      "faces": {
+        "north": {
+          "uv": [
+            10.166666666666664,
+            20.34246575342466,
+            6.666666666666667,
+            24.726027397260275
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            15,
+            9,
+            17,
+            11
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            6.666666666666667,
+            20.34246575342466,
+            10.166666666666664,
+            24.726027397260275
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            15,
+            9,
+            17,
+            11
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            21.666666666666668,
+            20,
+            25.166666666666664,
+            21
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            15,
+            9,
+            17,
+            11
+          ],
+          "texture": 0
+        }
+      },
+      "color": 3
+    },
+    {
+      "name": "Korpus / srodek",
+      "type": "cube",
+      "uuid": "c66fd984-314e-55c8-bdec-3a9027d1ffdf",
+      "from": [
+        0.1,
+        8.55,
+        6.9
+      ],
+      "to": [
+        2.1,
+        11.9,
+        9.1
+      ],
+      "origin": [
+        0,
+        0,
+        8
+      ],
+      "box_uv": false,
+      "autouv": 0,
+      "shade": true,
+      "visibility": true,
+      "export": true,
+      "rescale": false,
+      "faces": {
+        "north": {
+          "uv": [
+            6.666666666666667,
+            20.0,
+            3.3333333333333335,
+            24.58904109589041
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            15,
+            9,
+            17,
+            11
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            3.3333333333333335,
+            20.0,
+            6.666666666666667,
+            24.58904109589041
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            15,
+            9,
+            17,
+            11
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            18.333333333333332,
+            20,
+            21.666666666666668,
+            21
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            15,
+            9,
+            17,
+            11
+          ],
+          "texture": 0
+        }
+      },
+      "color": 3
+    },
+    {
+      "name": "Korpus / tylny luk",
+      "type": "cube",
+      "uuid": "17eba041-7c22-5657-a670-a9bed61a0407",
+      "from": [
+        -0.8,
+        8.65,
+        6.9
+      ],
+      "to": [
+        0.1,
+        11.75,
+        9.1
+      ],
+      "origin": [
+        0,
+        0,
+        8
+      ],
+      "box_uv": false,
+      "autouv": 0,
+      "shade": true,
+      "visibility": true,
+      "export": true,
+      "rescale": false,
+      "faces": {
+        "north": {
+          "uv": [
+            3.3333333333333335,
+            20.205479452054796,
+            1.833333333333333,
+            24.45205479452055
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            15,
+            9,
+            17,
+            11
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            1.833333333333333,
+            20.205479452054796,
+            3.3333333333333335,
+            24.45205479452055
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            15,
+            9,
+            17,
+            11
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            16.833333333333332,
+            20,
+            18.333333333333332,
+            21
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            15,
+            9,
+            17,
+            11
+          ],
+          "texture": 0
+        }
+      },
+      "color": 3
+    },
+    {
+      "name": "Korpus / skos tylnej krawedzi",
+      "type": "cube",
+      "uuid": "ab1deef0-1678-5263-adfa-42e827390fef",
+      "from": [
+        -1.4,
+        8.85,
+        7.0
+      ],
+      "to": [
+        -0.8,
+        11.5,
+        9.0
+      ],
+      "origin": [
+        0,
+        0,
+        8
+      ],
+      "box_uv": false,
+      "autouv": 0,
+      "shade": true,
+      "visibility": true,
+      "export": true,
+      "rescale": false,
+      "faces": {
+        "north": {
+          "uv": [
+            1.833333333333333,
+            20.547945205479454,
+            0.8333333333333334,
+            24.178082191780824
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            15,
+            9,
+            17,
+            11
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            0.8333333333333334,
+            20.547945205479454,
+            1.833333333333333,
+            24.178082191780824
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            15,
+            9,
+            17,
+            11
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            15.833333333333334,
+            20,
+            16.833333333333332,
+            21
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            15,
+            9,
+            17,
+            11
+          ],
+          "texture": 0
+        }
+      },
+      "color": 3
+    },
+    {
+      "name": "Korpus / zaokraglony koniec",
+      "type": "cube",
+      "uuid": "6c534440-b9b2-52b7-97fb-d415626e79cf",
+      "from": [
+        -1.9,
+        9.05,
+        7.15
+      ],
+      "to": [
+        -1.4,
+        11.15,
+        8.85
+      ],
+      "origin": [
+        0,
+        0,
+        8
+      ],
+      "box_uv": false,
+      "autouv": 0,
+      "shade": true,
+      "visibility": true,
+      "export": true,
+      "rescale": false,
+      "faces": {
+        "north": {
+          "uv": [
+            0.8333333333333334,
+            21.027397260273972,
+            0.0,
+            23.904109589041095
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            15,
+            9,
+            17,
+            11
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            0.0,
+            21.027397260273972,
+            0.8333333333333334,
+            23.904109589041095
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            15,
+            9,
+            17,
+            11
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            15.0,
+            20,
+            15.833333333333334,
+            21
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            15,
+            9,
+            17,
+            11
+          ],
+          "texture": 0
+        }
+      },
+      "color": 3
+    },
+    {
+      "name": "Szczerbinka",
+      "type": "cube",
+      "uuid": "4663d435-859f-5690-85e4-5526364707c7",
+      "from": [
+        0.15,
+        11.9,
+        7.7
+      ],
+      "to": [
+        0.85,
+        12.35,
+        8.3
+      ],
+      "origin": [
+        0,
+        0,
+        8
+      ],
+      "box_uv": false,
+      "autouv": 0,
+      "shade": true,
+      "visibility": true,
+      "export": true,
+      "rescale": false,
+      "faces": {
+        "north": {
+          "uv": [
+            17,
+            9,
+            15,
+            11
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            15,
+            9,
+            17,
+            11
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            15,
+            9,
+            17,
+            11
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            15,
+            9,
+            17,
+            11
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            15,
+            9,
+            17,
+            11
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            15,
+            9,
+            17,
+            11
+          ],
+          "texture": 0
+        }
+      },
+      "color": 3
+    },
+    {
+      "name": "Kolba / bark pod metalem",
+      "type": "cube",
+      "uuid": "28bbcf33-f5ee-5120-9df6-36a7c7e2043a",
+      "from": [
+        -2.26,
+        8.0,
+        7.1
+      ],
+      "to": [
+        -1.0,
+        11.7,
+        8.9
+      ],
+      "origin": [
+        0,
+        0,
+        8
+      ],
+      "box_uv": false,
+      "autouv": 0,
+      "shade": true,
+      "visibility": true,
+      "export": true,
+      "rescale": false,
+      "faces": {
+        "north": {
+          "uv": [
+            8.0,
+            8.0,
+            7.020408163265306,
+            11.894736842105264
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            10,
+            8,
+            13,
+            14
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            7.020408163265306,
+            8.0,
+            8.0,
+            11.894736842105264
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            10,
+            8,
+            13,
+            14
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            7.020408163265306,
+            15,
+            8.0,
+            17
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            12.63265306122449,
+            8,
+            13.0,
+            10
+          ],
+          "texture": 0
+        }
+      },
+      "color": 3
+    },
+    {
+      "name": "Kolba / przednie ramie",
+      "type": "cube",
+      "uuid": "7646319c-ade3-5a41-84bc-0b7e6b0eef53",
+      "from": [
+        -3.31,
+        7.35,
+        7.05
+      ],
+      "to": [
+        -2.26,
+        11.3,
+        8.95
+      ],
+      "origin": [
+        0,
+        0,
+        8
+      ],
+      "box_uv": false,
+      "autouv": 0,
+      "shade": true,
+      "visibility": true,
+      "export": true,
+      "rescale": false,
+      "faces": {
+        "north": {
+          "uv": [
+            7.020408163265306,
+            8.421052631578945,
+            6.204081632653061,
+            12.578947368421051
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            10,
+            8,
+            13,
+            14
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            6.204081632653061,
+            8.421052631578945,
+            7.020408163265306,
+            12.578947368421051
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            10,
+            8,
+            13,
+            14
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            6.204081632653061,
+            15,
+            7.020408163265306,
+            17
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            12.326530612244898,
+            8,
+            12.63265306122449,
+            10
+          ],
+          "texture": 0
+        }
+      },
+      "color": 4
+    },
+    {
+      "name": "Kolba / dolna pietka",
+      "type": "cube",
+      "uuid": "24abde09-4767-5820-bcc3-3a55b02173f5",
+      "from": [
+        -4.36,
+        6.9,
+        7.05
+      ],
+      "to": [
+        -3.31,
+        10.8,
+        8.95
+      ],
+      "origin": [
+        0,
+        0,
+        8
+      ],
+      "box_uv": false,
+      "autouv": 0,
+      "shade": true,
+      "visibility": true,
+      "export": true,
+      "rescale": false,
+      "faces": {
+        "north": {
+          "uv": [
+            6.204081632653061,
+            8.94736842105263,
+            5.387755102040816,
+            13.052631578947366
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            10,
+            8,
+            13,
+            14
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            5.387755102040816,
+            8.94736842105263,
+            6.204081632653061,
+            13.052631578947366
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            10,
+            8,
+            13,
+            14
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            5.387755102040816,
+            15,
+            6.204081632653061,
+            17
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            12.020408163265305,
+            8,
+            12.326530612244898,
+            10
+          ],
+          "texture": 0
+        }
+      },
+      "color": 4
+    },
+    {
+      "name": "Kolba / gorne przewazenie",
+      "type": "cube",
+      "uuid": "6e108362-fdef-5c19-b545-d66a0e515956",
+      "from": [
+        -4.92,
+        6.9,
+        7.1
+      ],
+      "to": [
+        -4.36,
+        10.3,
+        8.9
+      ],
+      "origin": [
+        0,
+        0,
+        8
+      ],
+      "box_uv": false,
+      "autouv": 0,
+      "shade": true,
+      "visibility": true,
+      "export": true,
+      "rescale": false,
+      "faces": {
+        "north": {
+          "uv": [
+            5.387755102040816,
+            9.473684210526315,
+            4.9523809523809526,
+            13.052631578947366
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            10,
+            8,
+            13,
+            14
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            4.9523809523809526,
+            9.473684210526315,
+            5.387755102040816,
+            13.052631578947366
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            10,
+            8,
+            13,
+            14
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            4.9523809523809526,
+            15,
+            5.387755102040816,
+            17
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            11.857142857142858,
+            8,
+            12.020408163265305,
+            10
+          ],
+          "texture": 0
+        }
+      },
+      "color": 4
+    },
+    {
+      "name": "Kolba / plytkie dolne wciecie",
+      "type": "cube",
+      "uuid": "54f02277-cc80-5f60-a089-e15097665234",
+      "from": [
+        -5.76,
+        7.4,
+        7.1
+      ],
+      "to": [
+        -4.92,
+        10.6,
+        8.9
+      ],
+      "origin": [
+        0,
+        0,
+        8
+      ],
+      "box_uv": false,
+      "autouv": 0,
+      "shade": true,
+      "visibility": true,
+      "export": true,
+      "rescale": false,
+      "faces": {
+        "north": {
+          "uv": [
+            4.9523809523809526,
+            9.157894736842104,
+            4.299319727891156,
+            12.526315789473683
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            10,
+            8,
+            13,
+            14
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            4.299319727891156,
+            9.157894736842104,
+            4.9523809523809526,
+            12.526315789473683
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            10,
+            8,
+            13,
+            14
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            4.299319727891156,
+            15,
+            4.9523809523809526,
+            17
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            11.612244897959183,
+            8,
+            11.857142857142858,
+            10
+          ],
+          "texture": 0
+        }
+      },
+      "color": 4
+    },
+    {
+      "name": "Kolba / nasada szerokiej stopki",
+      "type": "cube",
+      "uuid": "04dda9f2-6893-54bd-8610-f6f9a2fff293",
+      "from": [
+        -6.88,
+        6.95,
+        7.0
+      ],
+      "to": [
+        -5.76,
+        10.8,
+        9.0
+      ],
+      "origin": [
+        0,
+        0,
+        8
+      ],
+      "box_uv": false,
+      "autouv": 0,
+      "shade": true,
+      "visibility": true,
+      "export": true,
+      "rescale": false,
+      "faces": {
+        "north": {
+          "uv": [
+            4.299319727891156,
+            8.94736842105263,
+            3.428571428571428,
+            13.0
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            10,
+            8,
+            13,
+            14
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            3.428571428571428,
+            8.94736842105263,
+            4.299319727891156,
+            13.0
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            10,
+            8,
+            13,
+            14
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            3.428571428571428,
+            15,
+            4.299319727891156,
+            17
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            11.285714285714285,
+            8,
+            11.612244897959183,
+            10
+          ],
+          "texture": 0
+        }
+      },
+      "color": 4
+    },
+    {
+      "name": "Kolba / srodek stopki",
+      "type": "cube",
+      "uuid": "e5920435-983b-5a5b-b0a0-972facb53cb2",
+      "from": [
+        -8.35,
+        6.45,
+        7.0
+      ],
+      "to": [
+        -6.88,
+        10.85,
+        9.0
+      ],
+      "origin": [
+        0,
+        0,
+        8
+      ],
+      "box_uv": false,
+      "autouv": 0,
+      "shade": true,
+      "visibility": true,
+      "export": true,
+      "rescale": false,
+      "faces": {
+        "north": {
+          "uv": [
+            3.428571428571428,
+            8.894736842105264,
+            2.2857142857142856,
+            13.526315789473683
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            10,
+            8,
+            13,
+            14
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            2.2857142857142856,
+            8.894736842105264,
+            3.428571428571428,
+            13.526315789473683
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            10,
+            8,
+            13,
+            14
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            2.2857142857142856,
+            15,
+            3.428571428571428,
+            17
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            10.857142857142858,
+            8,
+            11.285714285714285,
+            10
+          ],
+          "texture": 0
+        }
+      },
+      "color": 4
+    },
+    {
+      "name": "Kolba / tyl stopki",
+      "type": "cube",
+      "uuid": "30aaf875-534b-5ac3-b2df-8c9d9a1043b7",
+      "from": [
+        -9.82,
+        6.1,
+        7.0
+      ],
+      "to": [
+        -8.35,
+        10.8,
+        9.0
+      ],
+      "origin": [
+        0,
+        0,
+        8
+      ],
+      "box_uv": false,
+      "autouv": 0,
+      "shade": true,
+      "visibility": true,
+      "export": true,
+      "rescale": false,
+      "faces": {
+        "north": {
+          "uv": [
+            2.2857142857142856,
+            8.94736842105263,
+            1.1428571428571428,
+            13.894736842105264
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            10,
+            8,
+            13,
+            14
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            1.1428571428571428,
+            8.94736842105263,
+            2.2857142857142856,
+            13.894736842105264
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            10,
+            8,
+            13,
+            14
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            1.1428571428571428,
+            15,
+            2.2857142857142856,
+            17
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            10.428571428571429,
+            8,
+            10.857142857142858,
+            10
+          ],
+          "texture": 0
+        }
+      },
+      "color": 4
+    },
+    {
+      "name": "Kolba / gorna krawedz tylu",
+      "type": "cube",
+      "uuid": "767d3d0f-844f-598a-af04-d925e57dab39",
+      "from": [
+        -11.29,
+        9.3,
+        7.0
+      ],
+      "to": [
+        -9.82,
+        10.8,
+        9.0
+      ],
+      "origin": [
+        0,
+        0,
+        8
+      ],
+      "box_uv": false,
+      "autouv": 0,
+      "shade": true,
+      "visibility": true,
+      "export": true,
+      "rescale": false,
+      "faces": {
+        "north": {
+          "uv": [
+            1.1428571428571428,
+            8.94736842105263,
+            0.0,
+            10.526315789473683
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            10,
+            8,
+            13,
+            14
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            0.0,
+            8.94736842105263,
+            1.1428571428571428,
+            10.526315789473683
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            10,
+            8,
+            13,
+            14
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            0.0,
+            15,
+            1.1428571428571428,
+            17
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            10.0,
+            8,
+            10.428571428571429,
+            10
+          ],
+          "texture": 0
+        }
+      },
+      "color": 4
+    },
+    {
+      "name": "Kolba / srodkowa krawedz tylu",
+      "type": "cube",
+      "uuid": "14f32959-a2e5-53d4-af4a-196f1bdba6f3",
+      "from": [
+        -11.08,
+        7.8,
+        7.0
+      ],
+      "to": [
+        -9.82,
+        9.3,
+        9.0
+      ],
+      "origin": [
+        0,
+        0,
+        8
+      ],
+      "box_uv": false,
+      "autouv": 0,
+      "shade": true,
+      "visibility": true,
+      "export": true,
+      "rescale": false,
+      "faces": {
+        "north": {
+          "uv": [
+            1.1428571428571428,
+            10.526315789473683,
+            0.16326530612244938,
+            12.105263157894736
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            10,
+            8,
+            13,
+            14
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            0.16326530612244938,
+            10.526315789473683,
+            1.1428571428571428,
+            12.105263157894736
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            10,
+            8,
+            13,
+            14
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            0.16326530612244938,
+            15,
+            1.1428571428571428,
+            17
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            10.061224489795919,
+            8,
+            10.428571428571429,
+            10
+          ],
+          "texture": 0
+        }
+      },
+      "color": 4
+    },
+    {
+      "name": "Kolba / dolna krawedz tylu",
+      "type": "cube",
+      "uuid": "3187abbc-b68c-5c4a-8d7c-285e1a28773d",
+      "from": [
+        -10.87,
+        6.1,
+        7.0
+      ],
+      "to": [
+        -9.82,
+        7.8,
+        9.0
+      ],
+      "origin": [
+        0,
+        0,
+        8
+      ],
+      "box_uv": false,
+      "autouv": 0,
+      "shade": true,
+      "visibility": true,
+      "export": true,
+      "rescale": false,
+      "faces": {
+        "north": {
+          "uv": [
+            1.1428571428571428,
+            12.105263157894736,
+            0.3265306122448968,
+            13.894736842105264
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            10,
+            8,
+            13,
+            14
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            0.3265306122448968,
+            12.105263157894736,
+            1.1428571428571428,
+            13.894736842105264
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            10,
+            8,
+            13,
+            14
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            0.3265306122448968,
+            15,
+            1.1428571428571428,
+            17
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            10.122448979591836,
+            8,
+            10.428571428571429,
+            10
+          ],
+          "texture": 0
+        }
+      },
+      "color": 4
+    },
+    {
+      "name": "Plaska tekstura / spust i obie petle",
+      "type": "cube",
+      "uuid": "3af768d9-d55a-598e-a94b-8e9c3cd131a8",
+      "from": [
+        -4,
+        6,
+        8
+      ],
+      "to": [
+        4,
+        10,
+        8
+      ],
+      "origin": [
+        0,
+        0,
+        8
+      ],
+      "box_uv": false,
+      "autouv": 0,
+      "shade": true,
+      "visibility": true,
+      "export": true,
+      "rescale": false,
+      "faces": {
+        "north": {
+          "uv": [
+            32,
+            0,
+            0,
+            16
+          ],
+          "texture": 1
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            32,
+            16
+          ],
+          "texture": 1
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        },
+        "down": {
+          "uv": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "texture": null
+        }
+      },
+      "color": 4
+    }
+  ],
+  "outliner": [
+    {
+      "name": "Lufa",
+      "uuid": "45da418a-ca3c-569f-82b9-3ab5ccd2115d",
+      "origin": [
+        0,
+        0,
+        8
+      ],
+      "visibility": true,
+      "export": true,
+      "isOpen": false,
+      "children": [
+        "93baa377-2c75-5593-8bdf-43e779fc1823",
+        "97a35ff3-5c24-573c-9bb5-8d654bc4532c",
+        "165b4034-61d0-5b19-bf8c-06105e3a7723",
+        "05da1123-3f3b-564f-bfc5-9dd1f7c54b80",
+        "088f76d9-f807-59d8-a8e3-a73f399b3c1c"
+      ]
+    },
+    {
+      "name": "Wylot",
+      "uuid": "d346011a-8d0c-522c-8174-418ba312f7e5",
+      "origin": [
+        0,
+        0,
+        8
+      ],
+      "visibility": true,
+      "export": true,
+      "isOpen": false,
+      "children": [
+        "799796d4-6507-5806-a90f-c2b189366977",
+        "d9ef6307-0518-5fdd-a79f-cd863d653056",
+        "e34fa60a-5024-551e-8dee-bab0e4d59f75",
+        "b1a118d8-51bf-5356-9637-f0c78b4ed179",
+        "e8311add-dd63-552d-a729-4f3eabb8551f"
+      ]
+    },
+    {
+      "name": "Korpus",
+      "uuid": "6b7c4e7a-0f07-5c8f-9f0b-62cf02b1086a",
+      "origin": [
+        0,
+        0,
+        8
+      ],
+      "visibility": true,
+      "export": true,
+      "isOpen": false,
+      "children": [
+        "7dc2e0ef-3370-5c90-b057-c7cecb434c41",
+        "7f2be6fb-6eb6-5e12-9940-af4bf64d9ce7",
+        "2bce7446-d0f5-5530-a025-ed9c17022355",
+        "c66fd984-314e-55c8-bdec-3a9027d1ffdf",
+        "17eba041-7c22-5657-a670-a9bed61a0407",
+        "ab1deef0-1678-5263-adfa-42e827390fef",
+        "6c534440-b9b2-52b7-97fb-d415626e79cf",
+        "4663d435-859f-5690-85e4-5526364707c7"
+      ]
+    },
+    {
+      "name": "Kolba",
+      "uuid": "7ec5320a-2452-5b59-a9ea-36daf86f8aaa",
+      "origin": [
+        0,
+        0,
+        8
+      ],
+      "visibility": true,
+      "export": true,
+      "isOpen": false,
+      "children": [
+        "28bbcf33-f5ee-5120-9df6-36a7c7e2043a",
+        "7646319c-ade3-5a41-84bc-0b7e6b0eef53",
+        "24abde09-4767-5820-bcc3-3a55b02173f5",
+        "6e108362-fdef-5c19-b545-d66a0e515956",
+        "54f02277-cc80-5f60-a089-e15097665234",
+        "04dda9f2-6893-54bd-8610-f6f9a2fff293",
+        "e5920435-983b-5a5b-b0a0-972facb53cb2",
+        "30aaf875-534b-5ac3-b2df-8c9d9a1043b7",
+        "767d3d0f-844f-598a-af04-d925e57dab39",
+        "14f32959-a2e5-53d4-af4a-196f1bdba6f3",
+        "3187abbc-b68c-5c4a-8d7c-285e1a28773d"
+      ]
+    },
+    {
+      "name": "Plaski spust i petle",
+      "uuid": "8cfa116e-ed90-5f59-b11b-25f7ae568be4",
+      "origin": [
+        0,
+        0,
+        8
+      ],
+      "visibility": true,
+      "export": true,
+      "isOpen": false,
+      "children": [
+        "3af768d9-d55a-598e-a94b-8e9c3cd131a8"
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "name": "red_ryder_bb_gun_flat.png",
+      "id": "0",
+      "uuid": "d9837388-890f-553c-bedb-a1d6030bfe09",
+      "path": "",
+      "folder": "item",
+      "namespace": "fallout",
+      "particle": true,
+      "render_mode": "default",
+      "visible": true,
+      "mode": "bitmap",
+      "saved": true,
+      "width": 32,
+      "height": 32,
+      "uv_width": 32,
+      "uv_height": 32,
+      "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAIAAAD8GO2jAAADQUlEQVR4nO1WSW/TQBT+xrEdJ2mSFrpQKkqhLMeyqBQunACVC+KnIiQEQoIWcUBCCBAXLlRdaLrRrLYTL+MxejOJk9KydENC4js4bybj983bzW7fuQsgk7EA2E4TQLHQB6DV8gAUpOy4LQC5XCY5o86vr5YAXLp88ez46YFibrveLJU2PD9cXlhAB3qlUgOQttKJ0iDw5ZPTjkeqm03asR1TngkAGIaeqFhcXPla2vA83/eDwcGBVCqV/EUEeooBiEJ6zdQ1ADwgmSTAl5TyCEKPaHQpxzxMVNiOa5ihiCIe8kbD0TRtB8HsfXJRQxo+dLIIoGa7AAb7yTk1hywYyGcBVG3pHGlrXcqvX74CYJk6IFIpZqQMRKGIevWDXZm+geOEblpWT5DpvsVCTnqfHNWXs5IYWBbFoLJd3h9B4MnAyqdCtUzqFDzXSeRmV9wHdgTkOKDfPEfBzFiGTClKPs4pQec+VwGcyfiWmQoCvtyyDkjQu9jcIqXZbFeXiCLKChGrZcgjwzQgBIAr16b6i9n5uTcAHjyc7c9bPo+qjebzJy+G+uJMWlsp01t6LBO0BUpEBWVNm0DEnIsoIQg5Y5oqnXKl6suSBPD40bPei3pBJKuFdS1QSu0axbHldYso7kAtsxkqAoWvSys/c4sd6HbQcVFLFh6TSvtkJf9gQSRi0bHgAGhboBzlcJGQtfdFLKLDEXzapJzZgWo34b+xAoi0jRPuqmWwNXNMLScnz5DHfV5aXQcwq5W9IJrXh5eWlgFMTJwlgntTp6RbqEprtYZ0NGXR048bu6/DuQgZA50l2K737u2HmVvX1XLL5ZbBfrTAdai1sZhalK/6pWqee6FRHO9dChFPz1z1Oi59nxlRgrr7X2p22hHqGh0bnTg//qtKPiQq1ZrquDsIRkdoyBStrt/rXjspXZdabC5nrW/W1c6FiWGaS4MFmpoyVNtVyu+GS2Ew5bSrV+p7WLBWpkmgkJMzQGvW8wx2nFY0Cl+WtpLnH0JX7+eZHOsxdYLtMiXrMH1CHAF0Nbl0JlMtnU5qotQg2wv5QxOon0og0yloJt8jSmhJ+kMRhFyGlLU/ZtrLo4N2tOp24z/Bb/Hvu+g7gIN/EK4y2HgAAAAASUVORK5CYII="
+    },
+    {
+      "name": "red_ryder_bb_gun_flat_loops.png",
+      "id": "1",
+      "uuid": "010512d7-ad55-5401-aa07-9d15d0224839",
+      "path": "",
+      "folder": "item",
+      "namespace": "fallout",
+      "particle": false,
+      "render_mode": "default",
+      "visible": true,
+      "mode": "bitmap",
+      "saved": true,
+      "width": 128,
+      "height": 128,
+      "uv_width": 32,
+      "uv_height": 32,
+      "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAYAAADDPmHLAAABs0lEQVR4nO3csU6DUBQGYDRoaxd9G8fOTnYwcXUxvouTPobRwcTJOHX0STQxtq51qZNoFAzUUgrn+yZCmkDozzn3XmiTBAAAAAAAAAAA6I6NpMMORofzn/t6va1fn7u9uun0dfjLZtMnQLMEILi06ROgWiv73sKW0boEYEEnZ6fZl7K3O8j2X5xftmo8oQUEJwDBCUBwAhCcAAQnAMEJQHACEJyFoBaYTN+y7X5/ezUBKFp+jP707NPrZJptz95nSVtpAcEJQHACEFwaZfBU1yCq7TodgDa+ttbLeWXt6fmltuNrAcEJQHACEJwABGcQuKC769Wthj6Ox7UdSwDWbKq66mlq2sQDCNaHMUBwWkCS/xvCKvIWb8qqc5GnDBUgOAEITgtI8h8aVfGfQXKdU7zaAjA6Ppo38XZQUa8u6sFN99c2UAGS5u/CJqVdKNXWKdY4AGWnWGWmUkp68AoQuVTXpdQF3R8O50Uld7Dz9ecIeXdy2bu2TBkf3z8IwJJZBwhOAIJL636cqW+vNxUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIKnuAxyUVbdBHuqXAAAAAElFTkSuQmCC"
+    }
+  ],
+  "display": {
+    "gui": {
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "translation": [
+        -2,
+        -1,
+        0
+      ],
+      "scale": [
+        0.44,
+        0.44,
+        0.44
+      ]
+    },
+    "ground": {
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        3,
+        0
+      ],
+      "scale": [
+        0.4,
+        0.4,
+        0.4
+      ]
+    },
+    "fixed": {
+      "rotation": [
+        0,
+        180,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.5,
+        0.5,
+        0.5
+      ]
+    },
+    "thirdperson_righthand": {
+      "rotation": [
+        0,
+        -90,
+        0
+      ],
+      "translation": [
+        0,
+        1.5,
+        1
+      ],
+      "scale": [
+        0.65,
+        0.65,
+        0.65
+      ]
+    },
+    "thirdperson_lefthand": {
+      "rotation": [
+        0,
+        90,
+        0
+      ],
+      "translation": [
+        0,
+        1.5,
+        1
+      ],
+      "scale": [
+        0.65,
+        0.65,
+        0.65
+      ]
+    },
+    "firstperson_righthand": {
+      "rotation": [
+        0,
+        -90,
+        0
+      ],
+      "translation": [
+        0,
+        1,
+        -2.5
+      ],
+      "scale": [
+        0.6,
+        0.6,
+        0.6
+      ]
+    },
+    "firstperson_lefthand": {
+      "rotation": [
+        0,
+        90,
+        0
+      ],
+      "translation": [
+        0,
+        1,
+        -2.5
+      ],
+      "scale": [
+        0.6,
+        0.6,
+        0.6
+      ]
+    }
+  }
+}

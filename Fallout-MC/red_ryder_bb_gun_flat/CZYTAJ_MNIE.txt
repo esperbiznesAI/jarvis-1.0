@@ -1,0 +1,20 @@
+RED RYDER — OSOBNY WARIANT Z PŁASKIM SPUSTEM I PĘTLAMI
+
+Oryginalny model przestrzenny jest zachowany w sąsiednim folderze:
+../red_ryder_bb_gun/red_ryder_bb_gun.bbmodel
+
+Ten projekt: red_ryder_bb_gun_flat.bbmodel
+Spust i obie pętle zastąpiono jedną płaszczyzną o zerowej grubości.
+Tekstura jest widoczna z obu stron, a otwory są przezroczyste.
+Pozostałe 29 brył, proporcje, kolory i pozycje w dłoniach są zachowane.
+Model zawiera łącznie 30 elementów: 29 brył i jedną płaszczyznę.
+
+Obie tekstury są osadzone w projekcie. Oryginalna ma 32x32 piksele,
+a dodatkowa tekstura spustu i pętli 128x128 (użyta górna połowa).
+Można otworzyć oba projekty jednocześnie w osobnych kartach Blockbencha.
+Plik OTWORZ_W_BLOCKBENCHU.html zawiera przycisk importu online.
+
+Folder assets zawiera statyczny model Minecraft Java i obie tekstury.
+Model zasobu: fallout:item/red_ryder_bb_gun_flat
+To wariant wizualny; nie dodaje mechaniki strzelania ani animacji.
+Pozycje w dłoniach i działanie w docelowym modzie wymagają sprawdzenia w grze.

@@ -1,0 +1,22 @@
+RED RYDER BB GUN — FALLOUT 1
+
+Własny model w stylu zaakceptowanego magnuma: duże piksele i proste,
+przestrzenne bryły. Tekstura 32×32 jest osadzona w projekcie.
+
+Otwórz red_ryder_bb_gun.bbmodel w Blockbenchu albo otwórz
+OTWORZ_W_BLOCKBENCHU.html i kliknij przycisk importu online.
+Nie są wymagane wtyczki.
+
+Folder assets zawiera statyczny model Minecraft Java i teksturę PNG.
+Model zasobu: fallout:item/red_ryder_bb_gun.
+To zasoby do własnego resource packa, bez mechaniki strzelania.
+Przyszła integracja z modem GeckoLib wymaga dopasowania kości i animacji.
+Pozycje w dłoniach wymagają sprawdzenia w grze.
+
+REFERENCJE
+Najnowszy sprite dostarczony przez użytkownika jest wzorem sylwetki:
+pełniejsza, opuszczona kolba z płytkim dolnym wcięciem, głębszy korpus
+ze schodkowo zaokrąglonym tyłem i dwie zwarte pętle.
+Kolba oraz obie pętle zostały wydłużone poziomo o kolejne 25%
+względem poprzedniej wersji (łącznie o 40% względem bazowego profilu).
+https://fallout.fandom.com/wiki/Red_Ryder_BB_gun_(Fallout)
